@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment Variables
+.env
+
+# Database
+*.db
+
+# Logs
+output/logs/
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+# Data Files
+data/
+
+# Output Files
+output/
