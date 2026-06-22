@@ -1,13 +1,14 @@
 from etl.loader import ExcelLoader
+from etl.validator import DataValidator
 
 
 def main():
 
     loader = ExcelLoader()
+    loader.load_all_files()
 
-    data = loader.load_all_files()
-
-    print(f"\nSuccessfully loaded {len(data)} datasets.")
+    validator = DataValidator()
+    validator.validate()
 
 
 if __name__ == "__main__":

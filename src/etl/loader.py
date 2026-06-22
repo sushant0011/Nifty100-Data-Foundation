@@ -2,6 +2,25 @@ from pathlib import Path
 import pandas as pd
 
 
+HEADER_MAP = {
+    # Files with title row in Excel
+    "analysis.xlsx": 1,
+    "balancesheet.xlsx": 1,
+    "cashflow.xlsx": 1,
+    "companies.xlsx": 1,
+    "documents.xlsx": 1,
+    "profitandloss.xlsx": 1,
+    "prosandcons.xlsx": 1,
+
+    # Files with headers in first row
+    "financial_ratios.xlsx": 0,
+    "market_cap.xlsx": 0,
+    "peer_groups.xlsx": 0,
+    "sectors.xlsx": 0,
+    "stock_prices.xlsx": 0,
+}
+
+
 class ExcelLoader:
     def __init__(self, raw_dir="data/raw", processed_dir="data/processed"):
         self.raw_dir = Path(raw_dir)
@@ -27,7 +46,8 @@ class ExcelLoader:
             try:
                 print(f"\nLoading : {file.name}")
 
-                df = pd.read_excel(file, header=1)
+                header_row = HEADER_MAP.get(file.name, 1)
+                df = pd.read_excel(file, header=header_row)
 
                 dataframes[file.stem] = df
 
