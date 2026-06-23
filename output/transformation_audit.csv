@@ -1,0 +1,13 @@
+file,rows_before,rows_after,duplicates_removed,status
+analysis.csv,20,20,0,Success
+balancesheet.csv,1312,1312,0,Success
+cashflow.csv,1187,1187,0,Success
+companies.csv,92,92,0,Success
+documents.csv,1585,1585,0,Success
+financial_ratios.csv,1184,1184,0,Success
+market_cap.csv,552,552,0,Success
+peer_groups.csv,56,56,0,Success
+profitandloss.csv,1276,1276,0,Success
+prosandcons.csv,16,16,0,Success
+sectors.csv,92,92,0,Success
+stock_prices.csv,5520,5520,0,Success
