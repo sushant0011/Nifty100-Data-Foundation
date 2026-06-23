@@ -5,6 +5,7 @@ from etl.transformer import DataTransformer
 from database.database_loader import DatabaseLoader
 from database.database_validator import DatabaseValidator
 from database.query_runner import QueryRunner
+from analytics.analytics import Analytics
 
 
 def main():
@@ -26,6 +27,9 @@ def main():
 
     query = QueryRunner()
     query.run_queries()
+
+    analytics = Analytics()
+    analytics.generate_reports()
 
 
 if __name__ == "__main__":
