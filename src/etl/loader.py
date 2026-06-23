@@ -1,5 +1,6 @@
 from pathlib import Path
 import pandas as pd
+import sqlite3
 
 
 HEADER_MAP = {
@@ -87,3 +88,22 @@ class ExcelLoader:
         print("=" * 60)
 
         return dataframes
+    
+
+def load_to_sqlite(db_path="db/nifty100.db", raw_dir="data/raw"):
+    loader = ExcelLoader(raw_dir=raw_dir)
+    dataframes = loader.load_all_files()
+    
+    conn = sqlite3.connect(db_path)
+    conn.execute("PRAGMA foreign_keys = ON")
+    
+    for table_name, df in dataframes.items():
+        df.to_sql(table_name, conn, if_exists="replace", index=False)
+        print(f"Loaded {table_name} → SQLite ({len(df)} rows)")
+    
+    conn.commit()
+    conn.close()
+    print("SQLite load complete!")
+
+if __name__ == "__main__":
+    load_to_sqlite()
