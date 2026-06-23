@@ -12,21 +12,21 @@
 
 ## Overview
 
-Nifty100 Data Foundation is a production-grade ETL pipeline that extracts financial data from 12 Excel source files, validates it against 16 Data Quality rules, and loads it into a structured SQLite database â€” powering analytics on India's top 100 listed companies.
+Nifty100 Data Foundation is a production-grade ETL pipeline that extracts financial data from 12 Excel source files, validates it against 16 Data Quality rules, and loads it into a structured SQLite database Ã¢â‚¬â€ powering analytics on India's top 100 listed companies.
 
 ---
 
-## Sprint 1 â€” Data Foundation (Complete)
+## Sprint 1 Ã¢â‚¬â€ Data Foundation (Complete)
 
 | Day | Task | Status |
 |-----|------|--------|
-| Day 01 | Environment Setup â€” venv, libs, Makefile | âœ… Done |
-| Day 02 | Excel Loader & Normaliser â€” 12 files, 35+ tests | âœ… Done |
-| Day 03 | Schema Validator â€” 16 DQ Rules (CRITICAL + WARNING) | âœ… Done |
-| Day 04 | SQLite Database Schema â€” 12 tables, PK/FK | âœ… Done |
-| Day 05 | Full Data Load â€” 13,871 rows, 0 FK violations | âœ… Done |
-| Day 06 | Data Quality Manual Review â€” 5 companies verified | âœ… Done |
-| Day 07 | Sprint Wrap-up â€” Reports, Charts, Analytics | âœ… Done |
+| Day 01 | Environment Setup Ã¢â‚¬â€ venv, libs, Makefile | Ã¢Å“â€¦ Done |
+| Day 02 | Excel Loader & Normaliser Ã¢â‚¬â€ 12 files, 35+ tests | Ã¢Å“â€¦ Done |
+| Day 03 | Schema Validator Ã¢â‚¬â€ 16 DQ Rules (CRITICAL + WARNING) | Ã¢Å“â€¦ Done |
+| Day 04 | SQLite Database Schema Ã¢â‚¬â€ 12 tables, PK/FK | Ã¢Å“â€¦ Done |
+| Day 05 | Full Data Load Ã¢â‚¬â€ 13,871 rows, 0 FK violations | Ã¢Å“â€¦ Done |
+| Day 06 | Data Quality Manual Review Ã¢â‚¬â€ 5 companies verified | Ã¢Å“â€¦ Done |
+| Day 07 | Sprint Wrap-up Ã¢â‚¬â€ Reports, Charts, Analytics | Ã¢Å“â€¦ Done |
 
 ---
 
@@ -54,40 +54,40 @@ Nifty100 Data Foundation is a production-grade ETL pipeline that extracts financ
 
 ```
 Nifty100_Data_Foundation/
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/                  # 12 source Excel files
-â”‚   â”œâ”€â”€ processed/            # Cleaned CSVs
-â”‚   â””â”€â”€ backup/               # Backups
-â”‚
-â”œâ”€â”€ db/
-â”‚   â”œâ”€â”€ schema.sql            # 12-table SQLite schema
-â”‚   â””â”€â”€ nifty100.db           # SQLite database
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ etl/
-â”‚   â”‚   â”œâ”€â”€ loader.py         # Excel â†’ SQLite loader
-â”‚   â”‚   â”œâ”€â”€ normaliser.py     # normalise_year() + normalise_ticker()
-â”‚   â”‚   â””â”€â”€ validator.py      # 16 DQ rules
-â”‚   â””â”€â”€ main.py
-â”‚
-â”œâ”€â”€ tests/
-â”‚   â”œâ”€â”€ test_loader.py        # Loader unit tests
-â”‚   â””â”€â”€ test_normaliser.py    # Normaliser unit tests (12 tests)
-â”‚
-â”œâ”€â”€ output/
-â”‚   â”œâ”€â”€ load_audit.csv        # Per-table row counts
-â”‚   â”œâ”€â”€ validation_failures.csv # DQ violations with severity
-â”‚   â”œâ”€â”€ final_report.txt      # Sprint wrap-up report
-â”‚   â”œâ”€â”€ analytics_summary.csv # Key business metrics
-â”‚   â””â”€â”€ charts/               # Visualization PNGs
-â”‚
-â”œâ”€â”€ notebooks/                # Exploratory SQL queries
-â”œâ”€â”€ docs/                     # Documentation
-â”œâ”€â”€ Makefile                  # make load | test | validate
-â”œâ”€â”€ pyproject.toml
-â”œâ”€â”€ requirements.txt
-â””â”€â”€ .env
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ data/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ raw/                  # 12 source Excel files
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ processed/            # Cleaned CSVs
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ backup/               # Backups
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ db/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ schema.sql            # 12-table SQLite schema
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ nifty100.db           # SQLite database
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ src/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ etl/
+Ã¢â€â€š   Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ loader.py         # Excel Ã¢â€ â€™ SQLite loader
+Ã¢â€â€š   Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ normaliser.py     # normalise_year() + normalise_ticker()
+Ã¢â€â€š   Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ validator.py      # 16 DQ rules
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ main.py
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ tests/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ test_loader.py        # Loader unit tests
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ test_normaliser.py    # Normaliser unit tests (12 tests)
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ output/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ load_audit.csv        # Per-table row counts
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ validation_failures.csv # DQ violations with severity
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ final_report.txt      # Sprint wrap-up report
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ analytics_summary.csv # Key business metrics
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ charts/               # Visualization PNGs
+Ã¢â€â€š
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ notebooks/                # Exploratory SQL queries
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ docs/                     # Documentation
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Makefile                  # make load | test | validate
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ pyproject.toml
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ requirements.txt
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ .env
 ```
 
 ---
@@ -109,22 +109,22 @@ Nifty100_Data_Foundation/
 
 ```
 12 Excel Files (data/raw/)
-        â†“
+        Ã¢â€ â€œ
    ExcelLoader
   (loader.py)
-        â†“
+        Ã¢â€ â€œ
   Normalisation
  normalise_year()
 normalise_ticker()
-        â†“
+        Ã¢â€ â€œ
  16 DQ Validations
   (validator.py)
-        â†“
+        Ã¢â€ â€œ
   SQLite Database
   (nifty100.db)
-        â†“
+        Ã¢â€ â€œ
   SQL Analytics
-        â†“
+        Ã¢â€ â€œ
   Reports + Charts
    (output/)
 ```
@@ -176,11 +176,11 @@ make clean      # Clean output files
 |------|----------|-------------|
 | DQ-01 | CRITICAL | PK uniqueness in companies |
 | DQ-02 | CRITICAL | (company_id, year) composite PK |
-| DQ-03 | CRITICAL | FK integrity â€” all company_ids valid |
-| DQ-04 | WARNING | Balance sheet: assets = liabilities Â±1% |
+| DQ-03 | CRITICAL | FK integrity Ã¢â‚¬â€ all company_ids valid |
+| DQ-04 | WARNING | Balance sheet: assets = liabilities Ã‚Â±1% |
 | DQ-05 | WARNING | OPM% cross-check with P&L |
 | DQ-06 | WARNING | Positive sales values |
-| DQ-07 | WARNING | Year range 2000â€“2030 |
+| DQ-07 | WARNING | Year range 2000Ã¢â‚¬â€œ2030 |
 | DQ-08 | CRITICAL | company_name not null |
 | DQ-09 | WARNING | OHLC: high >= low in stock prices |
 | DQ-10 | WARNING | Positive market cap |
@@ -193,7 +193,7 @@ make clean      # Clean output files
 
 ---
 
-## Exit Criteria â€” Sprint 1
+## Exit Criteria Ã¢â‚¬â€ Sprint 1
 
 - [x] SELECT COUNT(*) FROM companies = 92
 - [x] PRAGMA foreign_key_check = 0 rows
