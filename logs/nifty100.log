@@ -1,0 +1,1235 @@
+2026-06-29 17:21:42 | WARNING  | OPM mismatch [TEST]: computed=30.00% vs source=27.00%
+2026-06-29 17:31:27 | INFO     | ============================================================
+2026-06-29 17:31:27 | INFO     | 🚀 Ratio Engine — Starting Sprint 2
+2026-06-29 17:31:27 | INFO     | ============================================================
+2026-06-29 17:39:10 | INFO     | ============================================================
+2026-06-29 17:39:10 | INFO     | 🚀 Ratio Engine — Starting Sprint 2
+2026-06-29 17:39:10 | INFO     | ============================================================
+2026-06-29 17:39:10 | INFO     |   📊 [ABB]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ABB]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ABB]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ADANIENSOL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ADANIENSOL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ADANIENSOL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ADANIENT]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ADANIENT]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ADANIENT]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ADANIGREEN]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ADANIGREEN]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ADANIGREEN]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ADANIPORTS]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ADANIPORTS]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ADANIPORTS]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ADANIPOWER]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ADANIPOWER]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ADANIPOWER]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [AMBUJACEM]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [AMBUJACEM]
+2026-06-29 17:39:10 | ERROR    |   ❌ [AMBUJACEM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [APOLLOHOSP]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [APOLLOHOSP]
+2026-06-29 17:39:10 | ERROR    |   ❌ [APOLLOHOSP]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ASIANPAINT]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ASIANPAINT]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ASIANPAINT]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ATGL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ATGL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ATGL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [AXISBANK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [AXISBANK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [AXISBANK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BAJAJ-AUTO]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BAJAJ-AUTO]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BAJAJ-AUTO]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BAJAJFINSV]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BAJAJFINSV]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BAJAJFINSV]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BAJAJHLDNG]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BAJAJHLDNG]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BAJAJHLDNG]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BAJFINANCE]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BAJFINANCE]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BAJFINANCE]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BANKBARODA]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BANKBARODA]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BANKBARODA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BEL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BEL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BEL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BHARTIARTL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BHARTIARTL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BHARTIARTL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BHEL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BHEL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BHEL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BOSCHLTD]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BOSCHLTD]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BOSCHLTD]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BPCL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BPCL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BPCL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [BRITANNIA]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [BRITANNIA]
+2026-06-29 17:39:10 | ERROR    |   ❌ [BRITANNIA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [CANBK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [CANBK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [CANBK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [CHOLAFIN]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [CHOLAFIN]
+2026-06-29 17:39:10 | ERROR    |   ❌ [CHOLAFIN]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [CIPLA]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [CIPLA]
+2026-06-29 17:39:10 | ERROR    |   ❌ [CIPLA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [COALINDIA]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [COALINDIA]
+2026-06-29 17:39:10 | ERROR    |   ❌ [COALINDIA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [DABUR]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [DABUR]
+2026-06-29 17:39:10 | ERROR    |   ❌ [DABUR]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [DIVISLAB]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [DIVISLAB]
+2026-06-29 17:39:10 | ERROR    |   ❌ [DIVISLAB]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [DLF]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [DLF]
+2026-06-29 17:39:10 | ERROR    |   ❌ [DLF]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [DMART]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [DMART]
+2026-06-29 17:39:10 | ERROR    |   ❌ [DMART]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [DRREDDY]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [DRREDDY]
+2026-06-29 17:39:10 | ERROR    |   ❌ [DRREDDY]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [EICHERMOT]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [EICHERMOT]
+2026-06-29 17:39:10 | ERROR    |   ❌ [EICHERMOT]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [GAIL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [GAIL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [GAIL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [GODREJCP]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [GODREJCP]
+2026-06-29 17:39:10 | ERROR    |   ❌ [GODREJCP]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [GRASIM]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [GRASIM]
+2026-06-29 17:39:10 | ERROR    |   ❌ [GRASIM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HAL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HAL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HAL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HAVELLS]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HAVELLS]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HAVELLS]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HCLTECH]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HCLTECH]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HCLTECH]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HDFCBANK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HDFCBANK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HDFCBANK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HDFCLIFE]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HDFCLIFE]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HDFCLIFE]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HEROMOTOCO]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HEROMOTOCO]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HEROMOTOCO]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HINDALCO]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HINDALCO]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HINDALCO]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [HINDUNILVR]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [HINDUNILVR]
+2026-06-29 17:39:10 | ERROR    |   ❌ [HINDUNILVR]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ICICIBANK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ICICIBANK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ICICIBANK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ICICIGI]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ICICIGI]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ICICIGI]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ICICIPRULI]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ICICIPRULI]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ICICIPRULI]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [INDIGO]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [INDIGO]
+2026-06-29 17:39:10 | ERROR    |   ❌ [INDIGO]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [INDUSINDBK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [INDUSINDBK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [INDUSINDBK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [INFY]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [INFY]
+2026-06-29 17:39:10 | ERROR    |   ❌ [INFY]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [IOC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [IOC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [IOC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [IRCTC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [IRCTC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [IRCTC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [IRFC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [IRFC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [IRFC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ITC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ITC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ITC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [JINDALSTEL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [JINDALSTEL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [JINDALSTEL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [JIOFIN]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [JIOFIN]
+2026-06-29 17:39:10 | INFO     |   📊 [JSWENERGY]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [JSWENERGY]
+2026-06-29 17:39:10 | ERROR    |   ❌ [JSWENERGY]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [JSWSTEEL]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [JSWSTEEL]
+2026-06-29 17:39:10 | ERROR    |   ❌ [JSWSTEEL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [KOTAKBANK]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [KOTAKBANK]
+2026-06-29 17:39:10 | ERROR    |   ❌ [KOTAKBANK]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [LICI]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [LICI]
+2026-06-29 17:39:10 | ERROR    |   ❌ [LICI]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [LODHA]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [LODHA]
+2026-06-29 17:39:10 | ERROR    |   ❌ [LODHA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [LT]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [LT]
+2026-06-29 17:39:10 | ERROR    |   ❌ [LT]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [LTIM]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [LTIM]
+2026-06-29 17:39:10 | ERROR    |   ❌ [LTIM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [M&M]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [M&M]
+2026-06-29 17:39:10 | ERROR    |   ❌ [M&M]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [MARUTI]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [MARUTI]
+2026-06-29 17:39:10 | ERROR    |   ❌ [MARUTI]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [MOTHERSON]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [MOTHERSON]
+2026-06-29 17:39:10 | ERROR    |   ❌ [MOTHERSON]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [NAUKRI]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [NAUKRI]
+2026-06-29 17:39:10 | ERROR    |   ❌ [NAUKRI]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [NESTLEIND]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [NESTLEIND]
+2026-06-29 17:39:10 | ERROR    |   ❌ [NESTLEIND]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [NHPC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [NHPC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [NHPC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [NTPC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [NTPC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [NTPC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [ONGC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [ONGC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [ONGC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [PFC]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [PFC]
+2026-06-29 17:39:10 | ERROR    |   ❌ [PFC]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [PIDILITIND]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [PIDILITIND]
+2026-06-29 17:39:10 | ERROR    |   ❌ [PIDILITIND]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [PNB]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [PNB]
+2026-06-29 17:39:10 | ERROR    |   ❌ [PNB]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [POWERGRID]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [POWERGRID]
+2026-06-29 17:39:10 | ERROR    |   ❌ [POWERGRID]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [RECLTD]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [RECLTD]
+2026-06-29 17:39:10 | ERROR    |   ❌ [RECLTD]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [RELIANCE]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [RELIANCE]
+2026-06-29 17:39:10 | ERROR    |   ❌ [RELIANCE]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [SBILIFE]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [SBILIFE]
+2026-06-29 17:39:10 | ERROR    |   ❌ [SBILIFE]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [SBIN]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [SBIN]
+2026-06-29 17:39:10 | ERROR    |   ❌ [SBIN]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [SHREECEM]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [SHREECEM]
+2026-06-29 17:39:10 | ERROR    |   ❌ [SHREECEM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:10 | INFO     |   📊 [SHRIRAMFIN]
+2026-06-29 17:39:10 | DEBUG    | Computing CAGRs for [SHRIRAMFIN]
+2026-06-29 17:39:10 | ERROR    |   ❌ [SHRIRAMFIN]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [SIEMENS]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [SIEMENS]
+2026-06-29 17:39:11 | ERROR    |   ❌ [SIEMENS]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [SUNPHARMA]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [SUNPHARMA]
+2026-06-29 17:39:11 | ERROR    |   ❌ [SUNPHARMA]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TATACONSUM]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TATACONSUM]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TATACONSUM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TATAMOTORS]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TATAMOTORS]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TATAMOTORS]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TATAPOWER]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TATAPOWER]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TATAPOWER]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TATASTEEL]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TATASTEEL]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TATASTEEL]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TCS]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TCS]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TCS]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TECHM]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TECHM]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TECHM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TITAN]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TITAN]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TITAN]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TORNTPHARM]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TORNTPHARM]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TORNTPHARM]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TRENT]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TRENT]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TRENT]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-29 17:39:11 | INFO     |   📊 [TVSMOTOR]
+2026-06-29 17:39:11 | DEBUG    | Computing CAGRs for [TVSMOTOR]
+2026-06-29 17:39:11 | ERROR    |   ❌ [TVSMOTOR]: unsupported operand type(s) for -: 'str' and 'int'
+2026-06-30 15:07:45 | INFO     | ============================================================
+2026-06-30 15:07:45 | INFO     | 🚀 Ratio Engine — Starting Sprint 2
+2026-06-30 15:07:45 | INFO     | ============================================================
+2026-06-30 15:07:45 | INFO     |   📊 [ABB]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ABB]
+2026-06-30 15:07:45 | INFO     |   📊 [ADANIENSOL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ADANIENSOL]
+2026-06-30 15:07:45 | INFO     |   📊 [ADANIENT]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ADANIENT]
+2026-06-30 15:07:45 | INFO     |   📊 [ADANIGREEN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ADANIGREEN]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ADANIGREEN | 2024 | ROCE | computed=10.999153911237597 | source=96.5 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [ADANIPORTS]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ADANIPORTS]
+2026-06-30 15:07:45 | INFO     |   📊 [ADANIPOWER]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ADANIPOWER]
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] ADANIPOWER | 2024 | ROE | computed=37.22522071701755 | source=57.1 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [AMBUJACEM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [AMBUJACEM]
+2026-06-30 15:07:45 | INFO     |   📊 [APOLLOHOSP]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [APOLLOHOSP]
+2026-06-30 15:07:45 | INFO     |   📊 [ASIANPAINT]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ASIANPAINT]
+2026-06-30 15:07:45 | INFO     |   📊 [ATGL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ATGL]
+2026-06-30 15:07:45 | INFO     |   📊 [AXISBANK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [AXISBANK]
+2026-06-30 15:07:45 | INFO     |   📊 [BAJAJ-AUTO]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BAJAJ-AUTO]
+2026-06-30 15:07:45 | INFO     |   📊 [BAJAJFINSV]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BAJAJFINSV]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJAJFINSV | 2024 | ROCE | computed=10.563824289405686 | source=21.14 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BAJAJFINSV | 2024 | ROE | computed=22.824734723746797 | source=11.72 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [BAJAJHLDNG]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BAJAJHLDNG]
+2026-06-30 15:07:45 | INFO     |   📊 [BAJFINANCE]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BAJFINANCE]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJFINANCE | 2024 | ROCE | computed=3.92559017665764 | source=11.9 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [BANKBARODA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BANKBARODA]
+2026-06-30 15:07:45 | INFO     |   📊 [BEL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BEL]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BEL | 2024 | ROCE | computed=3385.207100591716 | source=34.6 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BEL | 2024 | ROE | computed=4379.120879120879 | source=26.3 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [BHARTIARTL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BHARTIARTL]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BHARTIARTL | 2024 | ROCE | computed=23.94582889530737 | source=13.1 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [BHEL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BHEL]
+2026-06-30 15:07:45 | INFO     |   📊 [BOSCHLTD]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BOSCHLTD]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BOSCHLTD | 2024 | ROCE | computed=28.67100007831467 | source=20.6 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [BPCL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BPCL]
+2026-06-30 15:07:45 | INFO     |   📊 [BRITANNIA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [BRITANNIA]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BRITANNIA | 2024 | ROCE | computed=56.63983903420523 | source=48.9 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [CANBK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [CANBK]
+2026-06-30 15:07:45 | INFO     |   📊 [CHOLAFIN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [CHOLAFIN]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CHOLAFIN | 2024 | ROCE | computed=3.015823455289539 | source=10.4 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [CIPLA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [CIPLA]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CIPLA | 2024 | ROCE | computed=67.67624202053844 | source=22.8 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [COALINDIA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [COALINDIA]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] COALINDIA | 2024 | ROCE | computed=90.74442617749703 | source=63.6 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] COALINDIA | 2024 | ROE | computed=38.84632576899488 | source=52.0 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [DABUR]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [DABUR]
+2026-06-30 15:07:45 | INFO     |   📊 [DIVISLAB]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [DIVISLAB]
+2026-06-30 15:07:45 | INFO     |   📊 [DLF]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [DLF]
+2026-06-30 15:07:45 | INFO     |   📊 [DMART]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [DMART]
+2026-06-30 15:07:45 | INFO     |   📊 [DRREDDY]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [DRREDDY]
+2026-06-30 15:07:45 | INFO     |   📊 [EICHERMOT]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [EICHERMOT]
+2026-06-30 15:07:45 | INFO     |   📊 [GAIL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [GAIL]
+2026-06-30 15:07:45 | INFO     |   📊 [GODREJCP]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [GODREJCP]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] GODREJCP | 2024 | ROCE | computed=4.675584448056007 | source=26.49 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] GODREJCP | 2024 | ROE | computed=-4.609695973705834 | source=6.77 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [GRASIM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [GRASIM]
+2026-06-30 15:07:45 | INFO     |   📊 [HAL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HAL]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HAL | 2024 | ROCE | computed=3519.0332326283988 | source=38.9 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] HAL | 2024 | ROE | computed=3669.0821256038644 | source=28.9 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [HAVELLS]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HAVELLS]
+2026-06-30 15:07:45 | INFO     |   📊 [HCLTECH]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HCLTECH]
+2026-06-30 15:07:45 | INFO     |   📊 [HDFCBANK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HDFCBANK]
+2026-06-30 15:07:45 | INFO     |   📊 [HDFCLIFE]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HDFCLIFE]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HDFCLIFE | 2024 | ROCE | computed=609.8344810921832 | source=6.61 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [HEROMOTOCO]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HEROMOTOCO]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HEROMOTOCO | 2024 | ROCE | computed=166.1717434562988 | source=29.1 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [HINDALCO]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HINDALCO]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDALCO | 2024 | ROCE | computed=109.06463791977745 | source=11.3 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [HINDUNILVR]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [HINDUNILVR]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDUNILVR | 2024 | ROCE | computed=90.14629866290271 | source=27.2 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [ICICIBANK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ICICIBANK]
+2026-06-30 15:07:45 | INFO     |   📊 [ICICIGI]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ICICIGI]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIGI | 2024 | ROCE | computed=131.54495412844037 | source=22.5 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [ICICIPRULI]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ICICIPRULI]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIPRULI | 2024 | ROCE | computed=796.04285467427 | source=8.75 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [INDIGO]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [INDIGO]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] INDIGO | 2024 | ROCE | computed=5405.652620760535 | source=24.5 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [INDUSINDBK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [INDUSINDBK]
+2026-06-30 15:07:45 | INFO     |   📊 [INFY]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [INFY]
+2026-06-30 15:07:45 | INFO     |   📊 [IOC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [IOC]
+2026-06-30 15:07:45 | INFO     |   📊 [IRCTC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [IRCTC]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] IRCTC | 2024 | ROCE | computed=44.09537166900421 | source=53.8 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [IRFC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [IRFC]
+2026-06-30 15:07:45 | INFO     |   📊 [ITC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ITC]
+2026-06-30 15:07:45 | INFO     |   📊 [JINDALSTEL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [JINDALSTEL]
+2026-06-30 15:07:45 | INFO     |   📊 [JIOFIN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [JIOFIN]
+2026-06-30 15:07:45 | INFO     |   📊 [JSWENERGY]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [JSWENERGY]
+2026-06-30 15:07:45 | INFO     |   📊 [JSWSTEEL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [JSWSTEEL]
+2026-06-30 15:07:45 | INFO     |   📊 [KOTAKBANK]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [KOTAKBANK]
+2026-06-30 15:07:45 | INFO     |   📊 [LICI]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [LICI]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LICI | 2024 | ROCE | computed=48.755210093500054 | source=63.79 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LICI | 2024 | ROE | computed=41.906244558927455 | source=63.61 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [LODHA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [LODHA]
+2026-06-30 15:07:45 | INFO     |   📊 [LT]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [LT]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LT | 2024 | ROCE | computed=144.06221956326652 | source=17.18 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LT | 2024 | ROE | computed=73.76986951364175 | source=10.49 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [LTIM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [LTIM]
+2026-06-30 15:07:45 | INFO     |   📊 [M&M]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [M&M]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] M&M | 2024 | ROCE | computed=15.04702529010494 | source=26.98 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [MARUTI]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [MARUTI]
+2026-06-30 15:07:45 | INFO     |   📊 [MOTHERSON]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [MOTHERSON]
+2026-06-30 15:07:45 | INFO     |   📊 [NAUKRI]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [NAUKRI]
+2026-06-30 15:07:45 | INFO     |   📊 [NESTLEIND]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [NESTLEIND]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] NESTLEIND | 2024 | ROCE | computed=136.9724770642202 | source=185.43 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] NESTLEIND | 2024 | ROE | computed=98.57142857142858 | source=135.61 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [NHPC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [NHPC]
+2026-06-30 15:07:45 | INFO     |   📊 [NTPC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [NTPC]
+2026-06-30 15:07:45 | INFO     |   📊 [ONGC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [ONGC]
+2026-06-30 15:07:45 | INFO     |   📊 [PFC]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [PFC]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] PFC | 2024 | ROCE | computed=3.2966419171910046 | source=9.96 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [PIDILITIND]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [PIDILITIND]
+2026-06-30 15:07:45 | INFO     |   📊 [PNB]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [PNB]
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] PNB | 2024 | ROE | computed=61.320565191187306 | source=8.7 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [POWERGRID]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [POWERGRID]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] POWERGRID | 2024 | ROCE | computed=18.814792036490875 | source=13.2 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [RECLTD]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [RECLTD]
+2026-06-30 15:07:45 | INFO     |   📊 [RELIANCE]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [RELIANCE]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] RELIANCE | 2024 | ROCE | computed=15.180997435805937 | source=9.61 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [SBILIFE]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SBILIFE]
+2026-06-30 15:07:45 | INFO     |   📊 [SBIN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SBIN]
+2026-06-30 15:07:45 | INFO     |   📊 [SHREECEM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SHREECEM]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHREECEM | 2024 | ROCE | computed=22.671867381764994 | source=14.8 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [SHRIRAMFIN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SHRIRAMFIN]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHRIRAMFIN | 2024 | ROCE | computed=4.053617819316557 | source=11.3 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [SIEMENS]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SIEMENS]
+2026-06-30 15:07:45 | INFO     |   📊 [SUNPHARMA]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [SUNPHARMA]
+2026-06-30 15:07:45 | INFO     |   📊 [TATACONSUM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TATACONSUM]
+2026-06-30 15:07:45 | INFO     |   📊 [TATAMOTORS]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TATAMOTORS]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TATAMOTORS | 2024 | ROCE | computed=31.410185394800855 | source=20.1 | diff > 5%
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATAMOTORS | 2024 | ROE | computed=31.472759296273573 | source=49.4 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [TATAPOWER]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TATAPOWER]
+2026-06-30 15:07:45 | INFO     |   📊 [TATASTEEL]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TATASTEEL]
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATASTEEL | 2024 | ROE | computed=-5.44665934529158 | source=6.55 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [TCS]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TCS]
+2026-06-30 15:07:45 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TCS | 2024 | ROE | computed=45.4199714271639 | source=0.52 | source may be anomalous
+2026-06-30 15:07:45 | INFO     |   📊 [TECHM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TECHM]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TECHM | 2024 | ROCE | computed=19.075875144833397 | source=11.9 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [TITAN]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TITAN]
+2026-06-30 15:07:45 | INFO     |   📊 [TORNTPHARM]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TORNTPHARM]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TORNTPHARM | 2024 | ROCE | computed=33.051166290443945 | source=23.2 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [TRENT]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TRENT]
+2026-06-30 15:07:45 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TRENT | 2024 | ROCE | computed=45.38485127261576 | source=23.8 | diff > 5%
+2026-06-30 15:07:45 | INFO     |   📊 [TVSMOTOR]
+2026-06-30 15:07:45 | DEBUG    | Computing CAGRs for [TVSMOTOR]
+2026-06-30 15:07:45 | INFO     | 📦 financial_ratios rows: 1,073
+2026-06-30 15:07:45 | WARNING  | ⚠️  Only 1073 rows — check source data
+2026-06-30 15:07:46 | SUCCESS  | ✅ Capital allocation CSV → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\capital_allocation.csv (1073 rows)
+2026-06-30 15:07:46 | SUCCESS  | 📋 Edge log → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\ratio_edge_cases.log (46 entries)
+2026-06-30 15:07:46 | SUCCESS  | 🏁 Ratio Engine complete!
+2026-06-30 15:19:34 | INFO     | ============================================================
+2026-06-30 15:19:34 | INFO     | Ratio Engine - Starting Sprint 2
+2026-06-30 15:19:34 | INFO     | ============================================================
+2026-06-30 15:19:34 | INFO     |   Processing [ABB]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ABB]
+2026-06-30 15:19:34 | INFO     |   Processing [ADANIENSOL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ADANIENSOL]
+2026-06-30 15:19:34 | INFO     |   Processing [ADANIENT]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ADANIENT]
+2026-06-30 15:19:34 | INFO     |   Processing [ADANIGREEN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ADANIGREEN]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ADANIGREEN | 2024 | ROCE | computed=10.999153911237597 | source=96.5 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [ADANIPORTS]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ADANIPORTS]
+2026-06-30 15:19:34 | INFO     |   Processing [ADANIPOWER]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ADANIPOWER]
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] ADANIPOWER | 2024 | ROE | computed=37.22522071701755 | source=57.1 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [AMBUJACEM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [AMBUJACEM]
+2026-06-30 15:19:34 | INFO     |   Processing [APOLLOHOSP]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [APOLLOHOSP]
+2026-06-30 15:19:34 | INFO     |   Processing [ASIANPAINT]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ASIANPAINT]
+2026-06-30 15:19:34 | INFO     |   Processing [ATGL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ATGL]
+2026-06-30 15:19:34 | INFO     |   Processing [AXISBANK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [AXISBANK]
+2026-06-30 15:19:34 | INFO     |   Processing [BAJAJ-AUTO]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BAJAJ-AUTO]
+2026-06-30 15:19:34 | INFO     |   Processing [BAJAJFINSV]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BAJAJFINSV]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJAJFINSV | 2024 | ROCE | computed=10.563824289405686 | source=21.14 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BAJAJFINSV | 2024 | ROE | computed=22.824734723746797 | source=11.72 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [BAJAJHLDNG]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BAJAJHLDNG]
+2026-06-30 15:19:34 | INFO     |   Processing [BAJFINANCE]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BAJFINANCE]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJFINANCE | 2024 | ROCE | computed=3.92559017665764 | source=11.9 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [BANKBARODA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BANKBARODA]
+2026-06-30 15:19:34 | INFO     |   Processing [BEL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BEL]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BEL | 2024 | ROCE | computed=3385.207100591716 | source=34.6 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BEL | 2024 | ROE | computed=4379.120879120879 | source=26.3 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [BHARTIARTL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BHARTIARTL]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BHARTIARTL | 2024 | ROCE | computed=23.94582889530737 | source=13.1 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [BHEL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BHEL]
+2026-06-30 15:19:34 | INFO     |   Processing [BOSCHLTD]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BOSCHLTD]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BOSCHLTD | 2024 | ROCE | computed=28.67100007831467 | source=20.6 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [BPCL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BPCL]
+2026-06-30 15:19:34 | INFO     |   Processing [BRITANNIA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [BRITANNIA]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BRITANNIA | 2024 | ROCE | computed=56.63983903420523 | source=48.9 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [CANBK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [CANBK]
+2026-06-30 15:19:34 | INFO     |   Processing [CHOLAFIN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [CHOLAFIN]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CHOLAFIN | 2024 | ROCE | computed=3.015823455289539 | source=10.4 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [CIPLA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [CIPLA]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CIPLA | 2024 | ROCE | computed=67.67624202053844 | source=22.8 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [COALINDIA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [COALINDIA]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] COALINDIA | 2024 | ROCE | computed=90.74442617749703 | source=63.6 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] COALINDIA | 2024 | ROE | computed=38.84632576899488 | source=52.0 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [DABUR]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [DABUR]
+2026-06-30 15:19:34 | INFO     |   Processing [DIVISLAB]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [DIVISLAB]
+2026-06-30 15:19:34 | INFO     |   Processing [DLF]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [DLF]
+2026-06-30 15:19:34 | INFO     |   Processing [DMART]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [DMART]
+2026-06-30 15:19:34 | INFO     |   Processing [DRREDDY]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [DRREDDY]
+2026-06-30 15:19:34 | INFO     |   Processing [EICHERMOT]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [EICHERMOT]
+2026-06-30 15:19:34 | INFO     |   Processing [GAIL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [GAIL]
+2026-06-30 15:19:34 | INFO     |   Processing [GODREJCP]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [GODREJCP]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] GODREJCP | 2024 | ROCE | computed=4.675584448056007 | source=26.49 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] GODREJCP | 2024 | ROE | computed=-4.609695973705834 | source=6.77 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [GRASIM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [GRASIM]
+2026-06-30 15:19:34 | INFO     |   Processing [HAL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HAL]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HAL | 2024 | ROCE | computed=3519.0332326283988 | source=38.9 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] HAL | 2024 | ROE | computed=3669.0821256038644 | source=28.9 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [HAVELLS]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HAVELLS]
+2026-06-30 15:19:34 | INFO     |   Processing [HCLTECH]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HCLTECH]
+2026-06-30 15:19:34 | INFO     |   Processing [HDFCBANK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HDFCBANK]
+2026-06-30 15:19:34 | INFO     |   Processing [HDFCLIFE]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HDFCLIFE]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HDFCLIFE | 2024 | ROCE | computed=609.8344810921832 | source=6.61 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [HEROMOTOCO]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HEROMOTOCO]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HEROMOTOCO | 2024 | ROCE | computed=166.1717434562988 | source=29.1 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [HINDALCO]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HINDALCO]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDALCO | 2024 | ROCE | computed=109.06463791977745 | source=11.3 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [HINDUNILVR]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [HINDUNILVR]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDUNILVR | 2024 | ROCE | computed=90.14629866290271 | source=27.2 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [ICICIBANK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ICICIBANK]
+2026-06-30 15:19:34 | INFO     |   Processing [ICICIGI]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ICICIGI]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIGI | 2024 | ROCE | computed=131.54495412844037 | source=22.5 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [ICICIPRULI]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ICICIPRULI]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIPRULI | 2024 | ROCE | computed=796.04285467427 | source=8.75 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [INDIGO]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [INDIGO]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] INDIGO | 2024 | ROCE | computed=5405.652620760535 | source=24.5 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [INDUSINDBK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [INDUSINDBK]
+2026-06-30 15:19:34 | INFO     |   Processing [INFY]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [INFY]
+2026-06-30 15:19:34 | INFO     |   Processing [IOC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [IOC]
+2026-06-30 15:19:34 | INFO     |   Processing [IRCTC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [IRCTC]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] IRCTC | 2024 | ROCE | computed=44.09537166900421 | source=53.8 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [IRFC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [IRFC]
+2026-06-30 15:19:34 | INFO     |   Processing [ITC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ITC]
+2026-06-30 15:19:34 | INFO     |   Processing [JINDALSTEL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [JINDALSTEL]
+2026-06-30 15:19:34 | INFO     |   Processing [JIOFIN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [JIOFIN]
+2026-06-30 15:19:34 | INFO     |   Processing [JSWENERGY]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [JSWENERGY]
+2026-06-30 15:19:34 | INFO     |   Processing [JSWSTEEL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [JSWSTEEL]
+2026-06-30 15:19:34 | INFO     |   Processing [KOTAKBANK]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [KOTAKBANK]
+2026-06-30 15:19:34 | INFO     |   Processing [LICI]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [LICI]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LICI | 2024 | ROCE | computed=48.755210093500054 | source=63.79 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LICI | 2024 | ROE | computed=41.906244558927455 | source=63.61 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [LODHA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [LODHA]
+2026-06-30 15:19:34 | INFO     |   Processing [LT]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [LT]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LT | 2024 | ROCE | computed=144.06221956326652 | source=17.18 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LT | 2024 | ROE | computed=73.76986951364175 | source=10.49 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [LTIM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [LTIM]
+2026-06-30 15:19:34 | INFO     |   Processing [M&M]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [M&M]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] M&M | 2024 | ROCE | computed=15.04702529010494 | source=26.98 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [MARUTI]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [MARUTI]
+2026-06-30 15:19:34 | INFO     |   Processing [MOTHERSON]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [MOTHERSON]
+2026-06-30 15:19:34 | INFO     |   Processing [NAUKRI]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [NAUKRI]
+2026-06-30 15:19:34 | INFO     |   Processing [NESTLEIND]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [NESTLEIND]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] NESTLEIND | 2024 | ROCE | computed=136.9724770642202 | source=185.43 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] NESTLEIND | 2024 | ROE | computed=98.57142857142858 | source=135.61 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [NHPC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [NHPC]
+2026-06-30 15:19:34 | INFO     |   Processing [NTPC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [NTPC]
+2026-06-30 15:19:34 | INFO     |   Processing [ONGC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [ONGC]
+2026-06-30 15:19:34 | INFO     |   Processing [PFC]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [PFC]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] PFC | 2024 | ROCE | computed=3.2966419171910046 | source=9.96 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [PIDILITIND]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [PIDILITIND]
+2026-06-30 15:19:34 | INFO     |   Processing [PNB]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [PNB]
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] PNB | 2024 | ROE | computed=61.320565191187306 | source=8.7 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [POWERGRID]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [POWERGRID]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] POWERGRID | 2024 | ROCE | computed=18.814792036490875 | source=13.2 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [RECLTD]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [RECLTD]
+2026-06-30 15:19:34 | INFO     |   Processing [RELIANCE]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [RELIANCE]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] RELIANCE | 2024 | ROCE | computed=15.180997435805937 | source=9.61 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [SBILIFE]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SBILIFE]
+2026-06-30 15:19:34 | INFO     |   Processing [SBIN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SBIN]
+2026-06-30 15:19:34 | INFO     |   Processing [SHREECEM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SHREECEM]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHREECEM | 2024 | ROCE | computed=22.671867381764994 | source=14.8 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [SHRIRAMFIN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SHRIRAMFIN]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHRIRAMFIN | 2024 | ROCE | computed=4.053617819316557 | source=11.3 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [SIEMENS]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SIEMENS]
+2026-06-30 15:19:34 | INFO     |   Processing [SUNPHARMA]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [SUNPHARMA]
+2026-06-30 15:19:34 | INFO     |   Processing [TATACONSUM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TATACONSUM]
+2026-06-30 15:19:34 | INFO     |   Processing [TATAMOTORS]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TATAMOTORS]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TATAMOTORS | 2024 | ROCE | computed=31.410185394800855 | source=20.1 | diff > 5%
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATAMOTORS | 2024 | ROE | computed=31.472759296273573 | source=49.4 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [TATAPOWER]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TATAPOWER]
+2026-06-30 15:19:34 | INFO     |   Processing [TATASTEEL]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TATASTEEL]
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATASTEEL | 2024 | ROE | computed=-5.44665934529158 | source=6.55 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [TCS]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TCS]
+2026-06-30 15:19:34 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TCS | 2024 | ROE | computed=45.4199714271639 | source=0.52 | source may be anomalous
+2026-06-30 15:19:34 | INFO     |   Processing [TECHM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TECHM]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TECHM | 2024 | ROCE | computed=19.075875144833397 | source=11.9 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [TITAN]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TITAN]
+2026-06-30 15:19:34 | INFO     |   Processing [TORNTPHARM]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TORNTPHARM]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TORNTPHARM | 2024 | ROCE | computed=33.051166290443945 | source=23.2 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [TRENT]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TRENT]
+2026-06-30 15:19:34 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TRENT | 2024 | ROCE | computed=45.38485127261576 | source=23.8 | diff > 5%
+2026-06-30 15:19:34 | INFO     |   Processing [TVSMOTOR]
+2026-06-30 15:19:34 | DEBUG    | Computing CAGRs for [TVSMOTOR]
+2026-06-30 15:19:34 | INFO     | financial_ratios rows: 1073
+2026-06-30 15:19:34 | WARNING  | Only 1073 rows - check source data
+2026-06-30 15:19:34 | SUCCESS  | ✅ Capital allocation CSV → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\capital_allocation.csv (1073 rows)
+2026-06-30 15:19:34 | SUCCESS  | Edge log -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\ratio_edge_cases.log (46 entries)
+2026-06-30 15:19:34 | SUCCESS  | Ratio Engine complete!
+2026-06-30 15:34:03 | INFO     | ============================================================
+2026-06-30 15:34:03 | INFO     | Ratio Engine - Starting Sprint 2
+2026-06-30 15:34:03 | INFO     | ============================================================
+2026-06-30 15:34:03 | INFO     |   Processing [ABB]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ABB]
+2026-06-30 15:34:03 | INFO     |   Processing [ADANIENSOL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ADANIENSOL]
+2026-06-30 15:34:03 | INFO     |   Processing [ADANIENT]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ADANIENT]
+2026-06-30 15:34:03 | INFO     |   Processing [ADANIGREEN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ADANIGREEN]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ADANIGREEN | 2024 | ROCE | computed=10.999153911237597 | source=96.5 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [ADANIPORTS]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ADANIPORTS]
+2026-06-30 15:34:03 | INFO     |   Processing [ADANIPOWER]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ADANIPOWER]
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] ADANIPOWER | 2024 | ROE | computed=37.22522071701755 | source=57.1 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [AMBUJACEM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [AMBUJACEM]
+2026-06-30 15:34:03 | INFO     |   Processing [APOLLOHOSP]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [APOLLOHOSP]
+2026-06-30 15:34:03 | INFO     |   Processing [ASIANPAINT]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ASIANPAINT]
+2026-06-30 15:34:03 | INFO     |   Processing [ATGL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ATGL]
+2026-06-30 15:34:03 | INFO     |   Processing [AXISBANK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [AXISBANK]
+2026-06-30 15:34:03 | INFO     |   Processing [BAJAJ-AUTO]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BAJAJ-AUTO]
+2026-06-30 15:34:03 | INFO     |   Processing [BAJAJFINSV]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BAJAJFINSV]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJAJFINSV | 2024 | ROCE | computed=10.563824289405686 | source=21.14 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BAJAJFINSV | 2024 | ROE | computed=22.824734723746797 | source=11.72 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [BAJAJHLDNG]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BAJAJHLDNG]
+2026-06-30 15:34:03 | INFO     |   Processing [BAJFINANCE]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BAJFINANCE]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJFINANCE | 2024 | ROCE | computed=3.92559017665764 | source=11.9 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [BANKBARODA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BANKBARODA]
+2026-06-30 15:34:03 | INFO     |   Processing [BEL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BEL]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BEL | 2024 | ROCE | computed=3385.207100591716 | source=34.6 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BEL | 2024 | ROE | computed=4379.120879120879 | source=26.3 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [BHARTIARTL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BHARTIARTL]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BHARTIARTL | 2024 | ROCE | computed=23.94582889530737 | source=13.1 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [BHEL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BHEL]
+2026-06-30 15:34:03 | INFO     |   Processing [BOSCHLTD]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BOSCHLTD]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BOSCHLTD | 2024 | ROCE | computed=28.67100007831467 | source=20.6 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [BPCL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BPCL]
+2026-06-30 15:34:03 | INFO     |   Processing [BRITANNIA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [BRITANNIA]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BRITANNIA | 2024 | ROCE | computed=56.63983903420523 | source=48.9 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [CANBK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [CANBK]
+2026-06-30 15:34:03 | INFO     |   Processing [CHOLAFIN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [CHOLAFIN]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CHOLAFIN | 2024 | ROCE | computed=3.015823455289539 | source=10.4 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [CIPLA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [CIPLA]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CIPLA | 2024 | ROCE | computed=67.67624202053844 | source=22.8 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [COALINDIA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [COALINDIA]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] COALINDIA | 2024 | ROCE | computed=90.74442617749703 | source=63.6 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] COALINDIA | 2024 | ROE | computed=38.84632576899488 | source=52.0 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [DABUR]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [DABUR]
+2026-06-30 15:34:03 | INFO     |   Processing [DIVISLAB]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [DIVISLAB]
+2026-06-30 15:34:03 | INFO     |   Processing [DLF]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [DLF]
+2026-06-30 15:34:03 | INFO     |   Processing [DMART]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [DMART]
+2026-06-30 15:34:03 | INFO     |   Processing [DRREDDY]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [DRREDDY]
+2026-06-30 15:34:03 | INFO     |   Processing [EICHERMOT]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [EICHERMOT]
+2026-06-30 15:34:03 | INFO     |   Processing [GAIL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [GAIL]
+2026-06-30 15:34:03 | INFO     |   Processing [GODREJCP]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [GODREJCP]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] GODREJCP | 2024 | ROCE | computed=4.675584448056007 | source=26.49 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] GODREJCP | 2024 | ROE | computed=-4.609695973705834 | source=6.77 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [GRASIM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [GRASIM]
+2026-06-30 15:34:03 | INFO     |   Processing [HAL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HAL]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HAL | 2024 | ROCE | computed=3519.0332326283988 | source=38.9 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] HAL | 2024 | ROE | computed=3669.0821256038644 | source=28.9 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [HAVELLS]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HAVELLS]
+2026-06-30 15:34:03 | INFO     |   Processing [HCLTECH]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HCLTECH]
+2026-06-30 15:34:03 | INFO     |   Processing [HDFCBANK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HDFCBANK]
+2026-06-30 15:34:03 | INFO     |   Processing [HDFCLIFE]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HDFCLIFE]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HDFCLIFE | 2024 | ROCE | computed=609.8344810921832 | source=6.61 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [HEROMOTOCO]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HEROMOTOCO]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HEROMOTOCO | 2024 | ROCE | computed=166.1717434562988 | source=29.1 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [HINDALCO]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HINDALCO]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDALCO | 2024 | ROCE | computed=109.06463791977745 | source=11.3 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [HINDUNILVR]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [HINDUNILVR]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDUNILVR | 2024 | ROCE | computed=90.14629866290271 | source=27.2 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [ICICIBANK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ICICIBANK]
+2026-06-30 15:34:03 | INFO     |   Processing [ICICIGI]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ICICIGI]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIGI | 2024 | ROCE | computed=131.54495412844037 | source=22.5 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [ICICIPRULI]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ICICIPRULI]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIPRULI | 2024 | ROCE | computed=796.04285467427 | source=8.75 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [INDIGO]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [INDIGO]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] INDIGO | 2024 | ROCE | computed=5405.652620760535 | source=24.5 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [INDUSINDBK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [INDUSINDBK]
+2026-06-30 15:34:03 | INFO     |   Processing [INFY]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [INFY]
+2026-06-30 15:34:03 | INFO     |   Processing [IOC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [IOC]
+2026-06-30 15:34:03 | INFO     |   Processing [IRCTC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [IRCTC]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] IRCTC | 2024 | ROCE | computed=44.09537166900421 | source=53.8 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [IRFC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [IRFC]
+2026-06-30 15:34:03 | INFO     |   Processing [ITC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ITC]
+2026-06-30 15:34:03 | INFO     |   Processing [JINDALSTEL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [JINDALSTEL]
+2026-06-30 15:34:03 | INFO     |   Processing [JIOFIN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [JIOFIN]
+2026-06-30 15:34:03 | INFO     |   Processing [JSWENERGY]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [JSWENERGY]
+2026-06-30 15:34:03 | INFO     |   Processing [JSWSTEEL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [JSWSTEEL]
+2026-06-30 15:34:03 | INFO     |   Processing [KOTAKBANK]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [KOTAKBANK]
+2026-06-30 15:34:03 | INFO     |   Processing [LICI]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [LICI]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LICI | 2024 | ROCE | computed=48.755210093500054 | source=63.79 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LICI | 2024 | ROE | computed=41.906244558927455 | source=63.61 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [LODHA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [LODHA]
+2026-06-30 15:34:03 | INFO     |   Processing [LT]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [LT]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LT | 2024 | ROCE | computed=144.06221956326652 | source=17.18 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LT | 2024 | ROE | computed=73.76986951364175 | source=10.49 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [LTIM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [LTIM]
+2026-06-30 15:34:03 | INFO     |   Processing [M&M]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [M&M]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] M&M | 2024 | ROCE | computed=15.04702529010494 | source=26.98 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [MARUTI]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [MARUTI]
+2026-06-30 15:34:03 | INFO     |   Processing [MOTHERSON]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [MOTHERSON]
+2026-06-30 15:34:03 | INFO     |   Processing [NAUKRI]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [NAUKRI]
+2026-06-30 15:34:03 | INFO     |   Processing [NESTLEIND]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [NESTLEIND]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] NESTLEIND | 2024 | ROCE | computed=136.9724770642202 | source=185.43 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] NESTLEIND | 2024 | ROE | computed=98.57142857142858 | source=135.61 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [NHPC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [NHPC]
+2026-06-30 15:34:03 | INFO     |   Processing [NTPC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [NTPC]
+2026-06-30 15:34:03 | INFO     |   Processing [ONGC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [ONGC]
+2026-06-30 15:34:03 | INFO     |   Processing [PFC]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [PFC]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] PFC | 2024 | ROCE | computed=3.2966419171910046 | source=9.96 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [PIDILITIND]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [PIDILITIND]
+2026-06-30 15:34:03 | INFO     |   Processing [PNB]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [PNB]
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] PNB | 2024 | ROE | computed=61.320565191187306 | source=8.7 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [POWERGRID]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [POWERGRID]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] POWERGRID | 2024 | ROCE | computed=18.814792036490875 | source=13.2 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [RECLTD]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [RECLTD]
+2026-06-30 15:34:03 | INFO     |   Processing [RELIANCE]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [RELIANCE]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] RELIANCE | 2024 | ROCE | computed=15.180997435805937 | source=9.61 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [SBILIFE]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SBILIFE]
+2026-06-30 15:34:03 | INFO     |   Processing [SBIN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SBIN]
+2026-06-30 15:34:03 | INFO     |   Processing [SHREECEM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SHREECEM]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHREECEM | 2024 | ROCE | computed=22.671867381764994 | source=14.8 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [SHRIRAMFIN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SHRIRAMFIN]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHRIRAMFIN | 2024 | ROCE | computed=4.053617819316557 | source=11.3 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [SIEMENS]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SIEMENS]
+2026-06-30 15:34:03 | INFO     |   Processing [SUNPHARMA]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [SUNPHARMA]
+2026-06-30 15:34:03 | INFO     |   Processing [TATACONSUM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TATACONSUM]
+2026-06-30 15:34:03 | INFO     |   Processing [TATAMOTORS]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TATAMOTORS]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TATAMOTORS | 2024 | ROCE | computed=31.410185394800855 | source=20.1 | diff > 5%
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATAMOTORS | 2024 | ROE | computed=31.472759296273573 | source=49.4 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [TATAPOWER]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TATAPOWER]
+2026-06-30 15:34:03 | INFO     |   Processing [TATASTEEL]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TATASTEEL]
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATASTEEL | 2024 | ROE | computed=-5.44665934529158 | source=6.55 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [TCS]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TCS]
+2026-06-30 15:34:03 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TCS | 2024 | ROE | computed=45.4199714271639 | source=0.52 | source may be anomalous
+2026-06-30 15:34:03 | INFO     |   Processing [TECHM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TECHM]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TECHM | 2024 | ROCE | computed=19.075875144833397 | source=11.9 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [TITAN]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TITAN]
+2026-06-30 15:34:03 | INFO     |   Processing [TORNTPHARM]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TORNTPHARM]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TORNTPHARM | 2024 | ROCE | computed=33.051166290443945 | source=23.2 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [TRENT]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TRENT]
+2026-06-30 15:34:03 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TRENT | 2024 | ROCE | computed=45.38485127261576 | source=23.8 | diff > 5%
+2026-06-30 15:34:03 | INFO     |   Processing [TVSMOTOR]
+2026-06-30 15:34:03 | DEBUG    | Computing CAGRs for [TVSMOTOR]
+2026-06-30 15:34:03 | INFO     | financial_ratios rows: 1073
+2026-06-30 15:34:03 | WARNING  | Only 1073 rows - check source data
+2026-06-30 15:34:03 | SUCCESS  | ✅ Capital allocation CSV → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\capital_allocation.csv (1073 rows)
+2026-06-30 15:34:04 | SUCCESS  | Edge log -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\ratio_edge_cases.log (46 entries)
+2026-06-30 15:34:04 | SUCCESS  | Ratio Engine complete!
+2026-06-30 15:55:28 | INFO     | ============================================================
+2026-06-30 15:55:28 | INFO     | Ratio Engine - Starting Sprint 2
+2026-06-30 15:55:28 | INFO     | ============================================================
+2026-06-30 15:55:28 | INFO     |   Processing [ABB]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ABB]
+2026-06-30 15:55:28 | INFO     |   Processing [ADANIENSOL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ADANIENSOL]
+2026-06-30 15:55:28 | INFO     |   Processing [ADANIENT]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ADANIENT]
+2026-06-30 15:55:28 | INFO     |   Processing [ADANIGREEN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ADANIGREEN]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ADANIGREEN | 2024 | ROCE | computed=11.487173994537567 | source=96.5 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [ADANIPORTS]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ADANIPORTS]
+2026-06-30 15:55:28 | INFO     |   Processing [ADANIPOWER]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ADANIPOWER]
+2026-06-30 15:55:28 | INFO     |   Processing [AMBUJACEM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [AMBUJACEM]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] AMBUJACEM | 2024 | ROCE | computed=18.505515359981022 | source=12.8 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [APOLLOHOSP]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [APOLLOHOSP]
+2026-06-30 15:55:28 | INFO     |   Processing [ASIANPAINT]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ASIANPAINT]
+2026-06-30 15:55:28 | INFO     |   Processing [ATGL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ATGL]
+2026-06-30 15:55:28 | INFO     |   Processing [AXISBANK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [AXISBANK]
+2026-06-30 15:55:28 | INFO     |   Processing [BAJAJ-AUTO]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BAJAJ-AUTO]
+2026-06-30 15:55:28 | INFO     |   Processing [BAJAJFINSV]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BAJAJFINSV]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJAJFINSV | 2024 | ROCE | computed=11.705286304511525 | source=21.14 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BAJAJFINSV | 2024 | ROE | computed=25.850351412279537 | source=11.72 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [BAJAJHLDNG]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BAJAJHLDNG]
+2026-06-30 15:55:28 | INFO     |   Processing [BAJFINANCE]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BAJFINANCE]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BAJFINANCE | 2024 | ROCE | computed=4.360315856037963 | source=11.9 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [BANKBARODA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BANKBARODA]
+2026-06-30 15:55:28 | INFO     |   Processing [BEL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BEL]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BEL | 2024 | ROCE | computed=4504.72440944882 | source=34.6 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] BEL | 2024 | ROE | computed=4744.047619047619 | source=26.3 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [BHARTIARTL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BHARTIARTL]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BHARTIARTL | 2024 | ROCE | computed=25.104372407456466 | source=13.1 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [BHEL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BHEL]
+2026-06-30 15:55:28 | INFO     |   Processing [BOSCHLTD]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BOSCHLTD]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BOSCHLTD | 2024 | ROCE | computed=30.2486986697513 | source=20.6 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [BPCL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BPCL]
+2026-06-30 15:55:28 | INFO     |   Processing [BRITANNIA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [BRITANNIA]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] BRITANNIA | 2024 | ROCE | computed=56.24375624375625 | source=48.9 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [CANBK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [CANBK]
+2026-06-30 15:55:28 | INFO     |   Processing [CHOLAFIN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [CHOLAFIN]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CHOLAFIN | 2024 | ROCE | computed=3.5107874445050236 | source=10.4 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [CIPLA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [CIPLA]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] CIPLA | 2024 | ROCE | computed=71.54593801577114 | source=22.8 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [COALINDIA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [COALINDIA]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] COALINDIA | 2024 | ROCE | computed=105.75106719101879 | source=63.6 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [DABUR]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [DABUR]
+2026-06-30 15:55:28 | INFO     |   Processing [DIVISLAB]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [DIVISLAB]
+2026-06-30 15:55:28 | INFO     |   Processing [DLF]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [DLF]
+2026-06-30 15:55:28 | INFO     |   Processing [DMART]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [DMART]
+2026-06-30 15:55:28 | INFO     |   Processing [DRREDDY]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [DRREDDY]
+2026-06-30 15:55:28 | INFO     |   Processing [EICHERMOT]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [EICHERMOT]
+2026-06-30 15:55:28 | INFO     |   Processing [GAIL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [GAIL]
+2026-06-30 15:55:28 | INFO     |   Processing [GODREJCP]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [GODREJCP]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] GODREJCP | 2024 | ROCE | computed=4.7281921618204805 | source=26.49 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] GODREJCP | 2024 | ROE | computed=-4.45308779171297 | source=6.77 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [GRASIM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [GRASIM]
+2026-06-30 15:55:28 | INFO     |   Processing [HAL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HAL]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HAL | 2024 | ROCE | computed=3617.391304347826 | source=38.9 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] HAL | 2024 | ROE | computed=3816.5829145728644 | source=28.9 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [HAVELLS]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HAVELLS]
+2026-06-30 15:55:28 | INFO     |   Processing [HCLTECH]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HCLTECH]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HCLTECH | 2024 | ROCE | computed=34.71042001594142 | source=29.6 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [HDFCBANK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HDFCBANK]
+2026-06-30 15:55:28 | INFO     |   Processing [HDFCLIFE]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HDFCLIFE]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HDFCLIFE | 2024 | ROCE | computed=646.4651639344262 | source=6.61 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [HEROMOTOCO]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HEROMOTOCO]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HEROMOTOCO | 2024 | ROCE | computed=177.91860147500682 | source=29.1 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [HINDALCO]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HINDALCO]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDALCO | 2024 | ROCE | computed=118.21454505175322 | source=11.3 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [HINDUNILVR]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [HINDUNILVR]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] HINDUNILVR | 2024 | ROCE | computed=89.67591362756632 | source=27.2 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [ICICIBANK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ICICIBANK]
+2026-06-30 15:55:28 | INFO     |   Processing [ICICIGI]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ICICIGI]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIGI | 2024 | ROCE | computed=146.4297385620915 | source=22.5 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [ICICIPRULI]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ICICIPRULI]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] ICICIPRULI | 2024 | ROCE | computed=754.8873412535846 | source=8.75 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [INDIGO]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [INDIGO]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] INDIGO | 2024 | ROCE | computed=5643.454935622318 | source=24.5 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [INDUSINDBK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [INDUSINDBK]
+2026-06-30 15:55:28 | INFO     |   Processing [INFY]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [INFY]
+2026-06-30 15:55:28 | INFO     |   Processing [IOC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [IOC]
+2026-06-30 15:55:28 | INFO     |   Processing [IRCTC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [IRCTC]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] IRCTC | 2024 | ROCE | computed=47.78115501519757 | source=53.8 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [IRFC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [IRFC]
+2026-06-30 15:55:28 | INFO     |   Processing [ITC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ITC]
+2026-06-30 15:55:28 | INFO     |   Processing [JINDALSTEL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [JINDALSTEL]
+2026-06-30 15:55:28 | INFO     |   Processing [JIOFIN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [JIOFIN]
+2026-06-30 15:55:28 | INFO     |   Processing [JSWENERGY]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [JSWENERGY]
+2026-06-30 15:55:28 | INFO     |   Processing [JSWSTEEL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [JSWSTEEL]
+2026-06-30 15:55:28 | INFO     |   Processing [KOTAKBANK]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [KOTAKBANK]
+2026-06-30 15:55:28 | INFO     |   Processing [LICI]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [LICI]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LICI | 2024 | ROCE | computed=57.534412123702374 | source=63.79 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LICI | 2024 | ROE | computed=49.44710986501021 | source=63.61 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [LODHA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [LODHA]
+2026-06-30 15:55:28 | INFO     |   Processing [LT]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [LT]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] LT | 2024 | ROCE | computed=152.61895060890035 | source=17.18 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] LT | 2024 | ROE | computed=77.66510140873214 | source=10.49 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [LTIM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [LTIM]
+2026-06-30 15:55:28 | INFO     |   Processing [M&M]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [M&M]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] M&M | 2024 | ROCE | computed=16.123589400412953 | source=26.98 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [MARUTI]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [MARUTI]
+2026-06-30 15:55:28 | INFO     |   Processing [MOTHERSON]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [MOTHERSON]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] MOTHERSON | 2024 | ROCE | computed=20.535191093170127 | source=13.7 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [NAUKRI]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [NAUKRI]
+2026-06-30 15:55:28 | INFO     |   Processing [NESTLEIND]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [NESTLEIND]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] NESTLEIND | 2024 | ROCE | computed=162.06241519674356 | source=185.43 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] NESTLEIND | 2024 | ROE | computed=117.75449101796407 | source=135.61 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [NHPC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [NHPC]
+2026-06-30 15:55:28 | INFO     |   Processing [NTPC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [NTPC]
+2026-06-30 15:55:28 | INFO     |   Processing [ONGC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [ONGC]
+2026-06-30 15:55:28 | INFO     |   Processing [PFC]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [PFC]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] PFC | 2024 | ROCE | computed=3.493066198183381 | source=9.96 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [PIDILITIND]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [PIDILITIND]
+2026-06-30 15:55:28 | INFO     |   Processing [PNB]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [PNB]
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] PNB | 2024 | ROE | computed=61.320565191187306 | source=8.7 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [POWERGRID]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [POWERGRID]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] POWERGRID | 2024 | ROCE | computed=19.16909551793869 | source=13.2 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [RECLTD]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [RECLTD]
+2026-06-30 15:55:28 | INFO     |   Processing [RELIANCE]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [RELIANCE]
+2026-06-30 15:55:28 | INFO     |   Processing [SBILIFE]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SBILIFE]
+2026-06-30 15:55:28 | INFO     |   Processing [SBIN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SBIN]
+2026-06-30 15:55:28 | INFO     |   Processing [SHREECEM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SHREECEM]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHREECEM | 2024 | ROCE | computed=22.876693948745473 | source=14.8 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [SHRIRAMFIN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SHRIRAMFIN]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] SHRIRAMFIN | 2024 | ROCE | computed=4.315116407506045 | source=11.3 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [SIEMENS]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SIEMENS]
+2026-06-30 15:55:28 | INFO     |   Processing [SUNPHARMA]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [SUNPHARMA]
+2026-06-30 15:55:28 | INFO     |   Processing [TATACONSUM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TATACONSUM]
+2026-06-30 15:55:28 | INFO     |   Processing [TATAMOTORS]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TATAMOTORS]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TATAMOTORS | 2024 | ROCE | computed=33.93225101467374 | source=20.1 | diff > 5%
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATAMOTORS | 2024 | ROE | computed=37.45613415294755 | source=49.4 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [TATAPOWER]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TATAPOWER]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TATAPOWER | 2024 | ROCE | computed=16.44604567377535 | source=11.1 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [TATASTEEL]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TATASTEEL]
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TATASTEEL | 2024 | ROE | computed=-5.334926929972293 | source=6.55 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [TCS]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TCS]
+2026-06-30 15:55:28 | WARNING  | Edge case: [DATA_SOURCE_ISSUE] TCS | 2024 | ROE | computed=50.944313673485176 | source=0.52 | source may be anomalous
+2026-06-30 15:55:28 | INFO     |   Processing [TECHM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TECHM]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TECHM | 2024 | ROCE | computed=18.60234198452373 | source=11.9 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [TITAN]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TITAN]
+2026-06-30 15:55:28 | INFO     |   Processing [TORNTPHARM]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TORNTPHARM]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TORNTPHARM | 2024 | ROCE | computed=32.3037323037323 | source=23.2 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [TRENT]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TRENT]
+2026-06-30 15:55:28 | WARNING  | Edge case: [FORMULA_DISCREPANCY] TRENT | 2024 | ROCE | computed=50.85036935234496 | source=23.8 | diff > 5%
+2026-06-30 15:55:28 | INFO     |   Processing [TVSMOTOR]
+2026-06-30 15:55:28 | DEBUG    | Computing CAGRs for [TVSMOTOR]
+2026-06-30 15:55:28 | INFO     | financial_ratios rows: 1073
+2026-06-30 15:55:28 | WARNING  | Only 1073 rows - check source data
+2026-06-30 15:55:28 | SUCCESS  | ✅ Capital allocation CSV → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\capital_allocation.csv (1073 rows)
+2026-06-30 15:55:28 | SUCCESS  | Edge log -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\ratio_edge_cases.log (47 entries)
+2026-06-30 15:55:28 | SUCCESS  | Ratio Engine complete!

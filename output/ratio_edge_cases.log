@@ -1,0 +1,50 @@
+# Nifty100 Ratio Engine - Edge Case Log
+# [CATEGORY] company | year | kpi | computed | source | note
+
+[FORMULA_DISCREPANCY] ADANIGREEN | 2024 | ROCE | computed=11.487173994537567 | source=96.5 | diff > 5%
+[FORMULA_DISCREPANCY] AMBUJACEM | 2024 | ROCE | computed=18.505515359981022 | source=12.8 | diff > 5%
+[FORMULA_DISCREPANCY] BAJAJFINSV | 2024 | ROCE | computed=11.705286304511525 | source=21.14 | diff > 5%
+[DATA_SOURCE_ISSUE] BAJAJFINSV | 2024 | ROE | computed=25.850351412279537 | source=11.72 | source may be anomalous
+[FORMULA_DISCREPANCY] BAJFINANCE | 2024 | ROCE | computed=4.360315856037963 | source=11.9 | diff > 5%
+[FORMULA_DISCREPANCY] BEL | 2024 | ROCE | computed=4504.72440944882 | source=34.6 | diff > 5%
+[DATA_SOURCE_ISSUE] BEL | 2024 | ROE | computed=4744.047619047619 | source=26.3 | source may be anomalous
+[FORMULA_DISCREPANCY] BHARTIARTL | 2024 | ROCE | computed=25.104372407456466 | source=13.1 | diff > 5%
+[FORMULA_DISCREPANCY] BOSCHLTD | 2024 | ROCE | computed=30.2486986697513 | source=20.6 | diff > 5%
+[FORMULA_DISCREPANCY] BRITANNIA | 2024 | ROCE | computed=56.24375624375625 | source=48.9 | diff > 5%
+[FORMULA_DISCREPANCY] CHOLAFIN | 2024 | ROCE | computed=3.5107874445050236 | source=10.4 | diff > 5%
+[FORMULA_DISCREPANCY] CIPLA | 2024 | ROCE | computed=71.54593801577114 | source=22.8 | diff > 5%
+[FORMULA_DISCREPANCY] COALINDIA | 2024 | ROCE | computed=105.75106719101879 | source=63.6 | diff > 5%
+[FORMULA_DISCREPANCY] GODREJCP | 2024 | ROCE | computed=4.7281921618204805 | source=26.49 | diff > 5%
+[DATA_SOURCE_ISSUE] GODREJCP | 2024 | ROE | computed=-4.45308779171297 | source=6.77 | source may be anomalous
+[FORMULA_DISCREPANCY] HAL | 2024 | ROCE | computed=3617.391304347826 | source=38.9 | diff > 5%
+[DATA_SOURCE_ISSUE] HAL | 2024 | ROE | computed=3816.5829145728644 | source=28.9 | source may be anomalous
+[FORMULA_DISCREPANCY] HCLTECH | 2024 | ROCE | computed=34.71042001594142 | source=29.6 | diff > 5%
+[FORMULA_DISCREPANCY] HDFCLIFE | 2024 | ROCE | computed=646.4651639344262 | source=6.61 | diff > 5%
+[FORMULA_DISCREPANCY] HEROMOTOCO | 2024 | ROCE | computed=177.91860147500682 | source=29.1 | diff > 5%
+[FORMULA_DISCREPANCY] HINDALCO | 2024 | ROCE | computed=118.21454505175322 | source=11.3 | diff > 5%
+[FORMULA_DISCREPANCY] HINDUNILVR | 2024 | ROCE | computed=89.67591362756632 | source=27.2 | diff > 5%
+[FORMULA_DISCREPANCY] ICICIGI | 2024 | ROCE | computed=146.4297385620915 | source=22.5 | diff > 5%
+[FORMULA_DISCREPANCY] ICICIPRULI | 2024 | ROCE | computed=754.8873412535846 | source=8.75 | diff > 5%
+[FORMULA_DISCREPANCY] INDIGO | 2024 | ROCE | computed=5643.454935622318 | source=24.5 | diff > 5%
+[FORMULA_DISCREPANCY] IRCTC | 2024 | ROCE | computed=47.78115501519757 | source=53.8 | diff > 5%
+[FORMULA_DISCREPANCY] LICI | 2024 | ROCE | computed=57.534412123702374 | source=63.79 | diff > 5%
+[DATA_SOURCE_ISSUE] LICI | 2024 | ROE | computed=49.44710986501021 | source=63.61 | source may be anomalous
+[FORMULA_DISCREPANCY] LT | 2024 | ROCE | computed=152.61895060890035 | source=17.18 | diff > 5%
+[DATA_SOURCE_ISSUE] LT | 2024 | ROE | computed=77.66510140873214 | source=10.49 | source may be anomalous
+[FORMULA_DISCREPANCY] M&M | 2024 | ROCE | computed=16.123589400412953 | source=26.98 | diff > 5%
+[FORMULA_DISCREPANCY] MOTHERSON | 2024 | ROCE | computed=20.535191093170127 | source=13.7 | diff > 5%
+[FORMULA_DISCREPANCY] NESTLEIND | 2024 | ROCE | computed=162.06241519674356 | source=185.43 | diff > 5%
+[DATA_SOURCE_ISSUE] NESTLEIND | 2024 | ROE | computed=117.75449101796407 | source=135.61 | source may be anomalous
+[FORMULA_DISCREPANCY] PFC | 2024 | ROCE | computed=3.493066198183381 | source=9.96 | diff > 5%
+[DATA_SOURCE_ISSUE] PNB | 2024 | ROE | computed=61.320565191187306 | source=8.7 | source may be anomalous
+[FORMULA_DISCREPANCY] POWERGRID | 2024 | ROCE | computed=19.16909551793869 | source=13.2 | diff > 5%
+[FORMULA_DISCREPANCY] SHREECEM | 2024 | ROCE | computed=22.876693948745473 | source=14.8 | diff > 5%
+[FORMULA_DISCREPANCY] SHRIRAMFIN | 2024 | ROCE | computed=4.315116407506045 | source=11.3 | diff > 5%
+[FORMULA_DISCREPANCY] TATAMOTORS | 2024 | ROCE | computed=33.93225101467374 | source=20.1 | diff > 5%
+[DATA_SOURCE_ISSUE] TATAMOTORS | 2024 | ROE | computed=37.45613415294755 | source=49.4 | source may be anomalous
+[FORMULA_DISCREPANCY] TATAPOWER | 2024 | ROCE | computed=16.44604567377535 | source=11.1 | diff > 5%
+[DATA_SOURCE_ISSUE] TATASTEEL | 2024 | ROE | computed=-5.334926929972293 | source=6.55 | source may be anomalous
+[DATA_SOURCE_ISSUE] TCS | 2024 | ROE | computed=50.944313673485176 | source=0.52 | source may be anomalous
+[FORMULA_DISCREPANCY] TECHM | 2024 | ROCE | computed=18.60234198452373 | source=11.9 | diff > 5%
+[FORMULA_DISCREPANCY] TORNTPHARM | 2024 | ROCE | computed=32.3037323037323 | source=23.2 | diff > 5%
+[FORMULA_DISCREPANCY] TRENT | 2024 | ROCE | computed=50.85036935234496 | source=23.8 | diff > 5%
