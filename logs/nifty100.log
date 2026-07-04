@@ -1233,3 +1233,261 @@
 2026-06-30 15:55:28 | SUCCESS  | ✅ Capital allocation CSV → C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\capital_allocation.csv (1073 rows)
 2026-06-30 15:55:28 | SUCCESS  | Edge log -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\ratio_edge_cases.log (47 entries)
 2026-06-30 15:55:28 | SUCCESS  | Ratio Engine complete!
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:35 | INFO     | Sprint 3 — Screener & Peer Comparison Engine
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:35 | INFO     | Step 1: Computing peer percentile rankings...
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:35 | INFO     | Peer Engine - Starting Sprint 3
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:35 | INFO     | Loaded peer_groups: 56 rows, 11 groups
+2026-07-04 17:12:35 | INFO     | Loaded 92 company-ratio rows
+2026-07-04 17:12:35 | INFO     | Peer group [Automobiles]: 7 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Consumer Finance]: 3 companies
+2026-07-04 17:12:35 | INFO     | Peer group [FMCG]: 7 companies
+2026-07-04 17:12:35 | INFO     | Peer group [IT Services]: 5 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Life Insurance]: 4 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Oil & Gas]: 5 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Pharmaceuticals]: 5 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Power & Utilities]: 7 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Private Banks]: 5 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Public Sector Banks]: 4 companies
+2026-07-04 17:12:35 | INFO     | Peer group [Steel]: 4 companies
+2026-07-04 17:12:35 | SUCCESS  | Inserted 560 peer percentile rows
+2026-07-04 17:12:35 | INFO     | Companies with no peer group (36): ['HAVELLS', 'HAL', 'SHREECEM', 'IRFC', 'INDIGO', 'LT', 'NAUKRI', 'DLF', 'LODHA', 'AMBUJACEM']...
+2026-07-04 17:12:35 | INFO     | peer_percentiles table: 560 rows
+2026-07-04 17:12:35 | SUCCESS  | Peer Engine complete!
+2026-07-04 17:12:35 | INFO     | Step 2: Generating radar charts...
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:35 | INFO     | Radar Chart Engine - Starting
+2026-07-04 17:12:35 | INFO     | ============================================================
+2026-07-04 17:12:37 | INFO     |   Chart: ABB_radar.png
+2026-07-04 17:12:37 | INFO     |   Chart: ADANIENSOL_radar.png
+2026-07-04 17:12:37 | INFO     |   Chart: ADANIENT_radar.png
+2026-07-04 17:12:38 | INFO     |   Chart: ADANIGREEN_radar.png
+2026-07-04 17:12:38 | INFO     |   Chart: ADANIPORTS_radar.png
+2026-07-04 17:12:38 | INFO     |   Chart: ADANIPOWER_radar.png
+2026-07-04 17:12:38 | INFO     |   Chart: AMBUJACEM_radar.png
+2026-07-04 17:12:39 | INFO     |   Chart: APOLLOHOSP_radar.png
+2026-07-04 17:12:39 | INFO     |   Chart: ASIANPAINT_radar.png
+2026-07-04 17:12:39 | INFO     |   Chart: ATGL_radar.png
+2026-07-04 17:12:39 | INFO     |   Chart: AXISBANK_radar.png
+2026-07-04 17:12:40 | INFO     |   Chart: BAJAJ-AUTO_radar.png
+2026-07-04 17:12:40 | INFO     |   Chart: BAJAJFINSV_radar.png
+2026-07-04 17:12:40 | INFO     |   Chart: BAJAJHLDNG_radar.png
+2026-07-04 17:12:40 | INFO     |   Chart: BAJFINANCE_radar.png
+2026-07-04 17:12:41 | INFO     |   Chart: BANKBARODA_radar.png
+2026-07-04 17:12:41 | INFO     |   Chart: BEL_radar.png
+2026-07-04 17:12:41 | INFO     |   Chart: BHARTIARTL_radar.png
+2026-07-04 17:12:42 | INFO     |   Chart: BHEL_radar.png
+2026-07-04 17:12:42 | INFO     |   Chart: BOSCHLTD_radar.png
+2026-07-04 17:12:42 | INFO     |   Chart: BPCL_radar.png
+2026-07-04 17:12:43 | INFO     |   Chart: BRITANNIA_radar.png
+2026-07-04 17:12:43 | INFO     |   Chart: CANBK_radar.png
+2026-07-04 17:12:44 | INFO     |   Chart: CHOLAFIN_radar.png
+2026-07-04 17:12:44 | INFO     |   Chart: CIPLA_radar.png
+2026-07-04 17:12:44 | INFO     |   Chart: COALINDIA_radar.png
+2026-07-04 17:12:45 | INFO     |   Chart: DABUR_radar.png
+2026-07-04 17:12:45 | INFO     |   Chart: DIVISLAB_radar.png
+2026-07-04 17:12:45 | INFO     |   Chart: DLF_radar.png
+2026-07-04 17:12:46 | INFO     |   Chart: DMART_radar.png
+2026-07-04 17:12:46 | INFO     |   Chart: DRREDDY_radar.png
+2026-07-04 17:12:46 | INFO     |   Chart: EICHERMOT_radar.png
+2026-07-04 17:12:47 | INFO     |   Chart: GAIL_radar.png
+2026-07-04 17:12:47 | INFO     |   Chart: GODREJCP_radar.png
+2026-07-04 17:12:47 | INFO     |   Chart: GRASIM_radar.png
+2026-07-04 17:12:47 | INFO     |   Chart: HAL_radar.png
+2026-07-04 17:12:48 | INFO     |   Chart: HAVELLS_radar.png
+2026-07-04 17:12:48 | INFO     |   Chart: HCLTECH_radar.png
+2026-07-04 17:12:48 | INFO     |   Chart: HDFCBANK_radar.png
+2026-07-04 17:12:48 | INFO     |   Chart: HDFCLIFE_radar.png
+2026-07-04 17:12:49 | INFO     |   Chart: HEROMOTOCO_radar.png
+2026-07-04 17:12:49 | INFO     |   Chart: HINDALCO_radar.png
+2026-07-04 17:12:49 | INFO     |   Chart: HINDUNILVR_radar.png
+2026-07-04 17:12:50 | INFO     |   Chart: ICICIBANK_radar.png
+2026-07-04 17:12:50 | INFO     |   Chart: ICICIGI_radar.png
+2026-07-04 17:12:50 | INFO     |   Chart: ICICIPRULI_radar.png
+2026-07-04 17:12:50 | INFO     |   Chart: INDIGO_radar.png
+2026-07-04 17:12:51 | INFO     |   Chart: INDUSINDBK_radar.png
+2026-07-04 17:12:51 | INFO     |   Chart: INFY_radar.png
+2026-07-04 17:12:51 | INFO     |   Chart: IOC_radar.png
+2026-07-04 17:12:52 | INFO     |   Chart: IRCTC_radar.png
+2026-07-04 17:12:52 | INFO     |   Chart: IRFC_radar.png
+2026-07-04 17:12:52 | INFO     |   Chart: ITC_radar.png
+2026-07-04 17:12:52 | INFO     |   Chart: JINDALSTEL_radar.png
+2026-07-04 17:12:53 | INFO     |   Chart: JIOFIN_radar.png
+2026-07-04 17:12:53 | INFO     |   Chart: JSWENERGY_radar.png
+2026-07-04 17:12:53 | INFO     |   Chart: JSWSTEEL_radar.png
+2026-07-04 17:12:53 | INFO     |   Chart: KOTAKBANK_radar.png
+2026-07-04 17:12:54 | INFO     |   Chart: LICI_radar.png
+2026-07-04 17:12:54 | INFO     |   Chart: LODHA_radar.png
+2026-07-04 17:12:54 | INFO     |   Chart: LT_radar.png
+2026-07-04 17:12:55 | INFO     |   Chart: LTIM_radar.png
+2026-07-04 17:12:55 | INFO     |   Chart: M&M_radar.png
+2026-07-04 17:12:55 | INFO     |   Chart: MARUTI_radar.png
+2026-07-04 17:12:55 | INFO     |   Chart: MOTHERSON_radar.png
+2026-07-04 17:12:56 | INFO     |   Chart: NAUKRI_radar.png
+2026-07-04 17:12:56 | INFO     |   Chart: NESTLEIND_radar.png
+2026-07-04 17:12:56 | INFO     |   Chart: NHPC_radar.png
+2026-07-04 17:12:57 | INFO     |   Chart: NTPC_radar.png
+2026-07-04 17:12:57 | INFO     |   Chart: ONGC_radar.png
+2026-07-04 17:12:57 | INFO     |   Chart: PFC_radar.png
+2026-07-04 17:12:57 | INFO     |   Chart: PIDILITIND_radar.png
+2026-07-04 17:12:58 | INFO     |   Chart: PNB_radar.png
+2026-07-04 17:12:58 | INFO     |   Chart: POWERGRID_radar.png
+2026-07-04 17:12:58 | INFO     |   Chart: RECLTD_radar.png
+2026-07-04 17:12:58 | INFO     |   Chart: RELIANCE_radar.png
+2026-07-04 17:12:59 | INFO     |   Chart: SBILIFE_radar.png
+2026-07-04 17:12:59 | INFO     |   Chart: SBIN_radar.png
+2026-07-04 17:12:59 | INFO     |   Chart: SHREECEM_radar.png
+2026-07-04 17:12:59 | INFO     |   Chart: SHRIRAMFIN_radar.png
+2026-07-04 17:13:00 | INFO     |   Chart: SIEMENS_radar.png
+2026-07-04 17:13:00 | INFO     |   Chart: SUNPHARMA_radar.png
+2026-07-04 17:13:00 | INFO     |   Chart: TATACONSUM_radar.png
+2026-07-04 17:13:00 | INFO     |   Chart: TATAMOTORS_radar.png
+2026-07-04 17:13:01 | INFO     |   Chart: TATAPOWER_radar.png
+2026-07-04 17:13:01 | INFO     |   Chart: TATASTEEL_radar.png
+2026-07-04 17:13:01 | INFO     |   Chart: TCS_radar.png
+2026-07-04 17:13:01 | INFO     |   Chart: TECHM_radar.png
+2026-07-04 17:13:02 | INFO     |   Chart: TITAN_radar.png
+2026-07-04 17:13:02 | INFO     |   Chart: TORNTPHARM_radar.png
+2026-07-04 17:13:02 | INFO     |   Chart: TRENT_radar.png
+2026-07-04 17:13:03 | INFO     |   Chart: TVSMOTOR_radar.png
+2026-07-04 17:13:03 | SUCCESS  | Radar charts complete: 92 charts -> reports\radar_charts
+2026-07-04 17:13:03 | INFO     | Step 3: Exporting screener_output.xlsx...
+2026-07-04 17:13:03 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:13:03 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:13:03 | INFO     |   Result: 22 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Quality Compounder]: 22 companies
+2026-07-04 17:13:03 | INFO     | Running preset: Value Pick (4 filters)
+2026-07-04 17:13:03 | WARNING  | Column not found: pe_ratio — skipping filter pe_max
+2026-07-04 17:13:03 | WARNING  | Column not found: pb_ratio — skipping filter pb_max
+2026-07-04 17:13:03 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:13:03 | INFO     |   Result: 88 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Value Pick]: 88 companies
+2026-07-04 17:13:03 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:13:03 | INFO     |   Result: 19 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Growth Accelerator]: 19 companies
+2026-07-04 17:13:03 | INFO     | Running preset: Dividend Champion (2 filters)
+2026-07-04 17:13:03 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:13:03 | INFO     |   Result: 65 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Dividend Champion]: 65 companies
+2026-07-04 17:13:03 | INFO     | Running preset: Debt Free Blue Chip (3 filters)
+2026-07-04 17:13:03 | WARNING  | Column not found: sales — skipping filter sales_min
+2026-07-04 17:13:03 | INFO     |   Result: 40 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Debt Free Blue Chip]: 40 companies
+2026-07-04 17:13:03 | INFO     | Running preset: Turnaround Watch (2 filters)
+2026-07-04 17:13:03 | INFO     |   Result: 39 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Turnaround Watch]: 39 companies
+2026-07-04 17:13:03 | SUCCESS  | screener_output.xlsx saved -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\screener_output.xlsx
+2026-07-04 17:13:03 | INFO     | Step 4: Exporting peer_comparison.xlsx...
+2026-07-04 17:13:03 | INFO     |   Sheet [Automobiles]: 7 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Consumer Finance]: 3 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [FMCG]: 7 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [IT Services]: 5 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Life Insurance]: 4 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Oil & Gas]: 5 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Pharmaceuticals]: 5 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Power & Utilities]: 7 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Private Banks]: 5 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Public Sector Banks]: 4 companies
+2026-07-04 17:13:03 | INFO     |   Sheet [Steel]: 4 companies
+2026-07-04 17:13:04 | SUCCESS  | peer_comparison.xlsx saved -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\peer_comparison.xlsx
+2026-07-04 17:13:04 | SUCCESS  | Sprint 3 complete!
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 22 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 22 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 22 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 19 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 19 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Debt Free Blue Chip (3 filters)
+2026-07-04 17:16:17 | WARNING  | Column not found: sales — skipping filter sales_min
+2026-07-04 17:16:17 | INFO     |   Result: 40 companies
+2026-07-04 17:16:17 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:17 | INFO     | Running preset: Turnaround Watch (2 filters)
+2026-07-04 17:16:17 | INFO     |   Result: 39 companies
+2026-07-04 17:16:18 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:18 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:18 | INFO     |   Result: 22 companies
+2026-07-04 17:16:18 | INFO     | Running preset: Value Pick (4 filters)
+2026-07-04 17:16:18 | WARNING  | Column not found: pe_ratio — skipping filter pe_max
+2026-07-04 17:16:18 | WARNING  | Column not found: pb_ratio — skipping filter pb_max
+2026-07-04 17:16:18 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:16:18 | INFO     |   Result: 88 companies
+2026-07-04 17:16:18 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:16:18 | INFO     |   Result: 19 companies
+2026-07-04 17:16:18 | INFO     | Running preset: Dividend Champion (2 filters)
+2026-07-04 17:16:18 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:16:18 | INFO     |   Result: 65 companies
+2026-07-04 17:16:18 | INFO     | Running preset: Debt Free Blue Chip (3 filters)
+2026-07-04 17:16:18 | WARNING  | Column not found: sales — skipping filter sales_min
+2026-07-04 17:16:18 | INFO     |   Result: 40 companies
+2026-07-04 17:16:18 | INFO     | Running preset: Turnaround Watch (2 filters)
+2026-07-04 17:16:18 | INFO     |   Result: 39 companies
+2026-07-04 17:16:18 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:18 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:18 | INFO     |   Result: 22 companies
+2026-07-04 17:16:18 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:16:18 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:16:18 | INFO     |   Result: 22 companies
+2026-07-04 17:16:18 | INFO     | Peer group [IT Services]: 5 companies
+2026-07-04 17:16:18 | INFO     | Peer group [TestGroup]: 3 companies
+2026-07-04 17:17:21 | WARNING  | OPM mismatch [TEST]: computed=30.00% vs source=27.00%
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 19 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 19 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Debt Free Blue Chip (3 filters)
+2026-07-04 17:17:22 | WARNING  | Column not found: sales — skipping filter sales_min
+2026-07-04 17:17:22 | INFO     |   Result: 40 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Turnaround Watch (2 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 39 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Running preset: Value Pick (4 filters)
+2026-07-04 17:17:22 | WARNING  | Column not found: pe_ratio — skipping filter pe_max
+2026-07-04 17:17:22 | WARNING  | Column not found: pb_ratio — skipping filter pb_max
+2026-07-04 17:17:22 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:17:22 | INFO     |   Result: 88 companies
+2026-07-04 17:17:22 | INFO     | Running preset: Growth Accelerator (3 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 19 companies
+2026-07-04 17:17:22 | INFO     | Running preset: Dividend Champion (2 filters)
+2026-07-04 17:17:22 | WARNING  | Column not found: dividend_yield — skipping filter dividend_yield_min
+2026-07-04 17:17:22 | INFO     |   Result: 65 companies
+2026-07-04 17:17:22 | INFO     | Running preset: Debt Free Blue Chip (3 filters)
+2026-07-04 17:17:22 | WARNING  | Column not found: sales — skipping filter sales_min
+2026-07-04 17:17:22 | INFO     |   Result: 40 companies
+2026-07-04 17:17:22 | INFO     | Running preset: Turnaround Watch (2 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 39 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Screener loaded: 92 companies, year range 2024-2024
+2026-07-04 17:17:22 | INFO     | Running preset: Quality Compounder (4 filters)
+2026-07-04 17:17:22 | INFO     |   Result: 22 companies
+2026-07-04 17:17:22 | INFO     | Peer group [IT Services]: 5 companies
+2026-07-04 17:17:22 | INFO     | Peer group [TestGroup]: 3 companies
