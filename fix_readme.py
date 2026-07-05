@@ -1,4 +1,3 @@
-Set-Content -Path fix_readme.py -Value @'
 content = """# Nifty100 Data Foundation
 
 > Financial Intelligence System for India's Top 100 Listed Companies
@@ -218,4 +217,3 @@ with open('README.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write(content)
 
 print("Done!")
-'@
