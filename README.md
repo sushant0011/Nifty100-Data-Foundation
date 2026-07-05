@@ -113,52 +113,61 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 
 ---
 
-## Project Structure 
+## Project Structure
 
+```
 Nifty100_Data_Foundation/
-├── config/
-│   └── screener_config.yaml       # Analyst-editable threshold definitions
-├── data/
-│   ├── raw/                       # 12 source Excel files
-│   └── processed/                 # Cleaned CSVs
-├── db/
-│   ├── schema.sql                 # SQLite schema
-│   └── nifty100.db                # SQLite database
-├── src/
-│   ├── etl/
-│   │   ├── loader.py              # Excel -> SQLite loader
-│   │   ├── normaliser.py          # normalise_year() + normalise_ticker()
-│   │   └── validator.py           # 16 DQ rules
-│   ├── analytics/
-│   │   ├── ratios.py              # NPM, OPM, ROE, ROCE, ROA, D/E, ICR
-│   │   ├── cagr.py                # CAGR engine, 6 edge cases
-│   │   ├── cashflow_kpis.py       # FCF, CFO Quality, CapEx, Capital Allocator
-│   │   ├── ratio_engine.py        # Full KPI runner
-│   │   ├── peer.py                # Peer percentile rankings
-│   │   └── radar.py               # Radar chart generator
-│   ├── screener/
-│   │   ├── engine.py              # Filter engine, 6 presets, composite score
-│   │   ├── exporter.py            # Excel export
-│   │   └── run_sprint3.py         # Sprint 3 full runner
-│   └── utils/
-│       ├── config.py              # Central config
-│       └── logger.py              # Loguru logging
-├── tests/
-│   ├── etl/                       # ETL unit tests
-│   ├── kpi/                       # 67 KPI formula tests
-│   └── screener/                  # 21 screener + peer tests
-├── output/
-│   ├── screener_output.xlsx       # 6 preset sheets, colour-coded
-│   ├── peer_comparison.xlsx       # 11 peer group sheets
-│   ├── capital_allocation.csv     # 8-pattern capital allocation
-│   └── ratio_edge_cases.log       # KPI anomaly log
-├── reports/
-│   └── radar_charts/              # 92 PNG radar charts
-├── Makefile
-├── requirements.txt
-└── .env
-
----
+|
+|-- config/
+|   `-- screener_config.yaml       # Analyst-editable threshold definitions
+|
+|-- data/
+|   |-- raw/                       # 12 source Excel files
+|   `-- processed/                 # Cleaned CSVs
+|
+|-- db/
+|   |-- schema.sql                 # SQLite schema
+|   `-- nifty100.db                # SQLite database
+|
+|-- src/
+|   |-- etl/
+|   |   |-- loader.py              # Excel -> SQLite loader
+|   |   |-- normaliser.py          # normalise_year() + normalise_ticker()
+|   |   `-- validator.py           # 16 DQ rules
+|   |-- analytics/
+|   |   |-- ratios.py              # NPM, OPM, ROE, ROCE, ROA, D/E, ICR
+|   |   |-- cagr.py                # CAGR engine, 6 edge cases
+|   |   |-- cashflow_kpis.py       # FCF, CFO Quality, CapEx, Capital Allocator
+|   |   |-- ratio_engine.py        # Full KPI runner
+|   |   |-- peer.py                # Peer percentile rankings
+|   |   `-- radar.py               # Radar chart generator
+|   |-- screener/
+|   |   |-- engine.py              # Filter engine, 6 presets, composite score
+|   |   |-- exporter.py            # Excel export
+|   |   `-- run_sprint3.py         # Sprint 3 full runner
+|   `-- utils/
+|       |-- config.py              # Central config
+|       `-- logger.py              # Loguru logging
+|
+|-- tests/
+|   |-- etl/                       # ETL unit tests
+|   |-- kpi/                       # 67 KPI formula tests
+|   `-- screener/                  # 21 screener + peer tests
+|
+|-- output/
+|   |-- screener_output.xlsx       # 6 preset sheets, colour-coded
+|   |-- peer_comparison.xlsx       # 11 peer group sheets
+|   |-- capital_allocation.csv     # 8-pattern capital allocation
+|   `-- ratio_edge_cases.log       # KPI anomaly log
+|
+|-- reports/
+|   `-- radar_charts/              # 92 PNG radar charts
+|
+|-- Makefile
+|-- requirements.txt
+`-- .env
+```
+````
 
 ## Tech Stack
 
