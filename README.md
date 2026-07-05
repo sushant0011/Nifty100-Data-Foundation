@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
-![Tests](https://img.shields.io/badge/Tests-100%20passed-brightgreen)
+![Tests](https://img.shields.io/badge/Tests-100%25passed-brightgreen)
 ![Sprint](https://img.shields.io/badge/Sprint%203-Complete-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -20,9 +20,9 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 
 | Sprint | Theme | Days | Tests | Status |
 |--------|-------|------|-------|--------|
-| Sprint 1 | Data Foundation & ETL | Day 01-07 | 12 | Complete |
+| Sprint 1 | Data Foundation and ETL | Day 01-07 | 12 | Complete |
 | Sprint 2 | Financial Ratio Engine | Day 08-14 | 67 | Complete |
-| Sprint 3 | Screener & Peer Comparison | Day 15-21 | 21 | Complete |
+| Sprint 3 | Screener and Peer Comparison | Day 15-21 | 21 | Complete |
 | **Total** | | | **100** | **3/3 Done** |
 
 ---
@@ -32,8 +32,8 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 | Day | Task | Status |
 |-----|------|--------|
 | Day 01 | Environment Setup - venv, libs, Makefile | Done |
-| Day 02 | Excel Loader & Normaliser - 12 files, 35+ tests | Done |
-| Day 03 | Schema Validator - 16 DQ Rules (CRITICAL + WARNING) | Done |
+| Day 02 | Excel Loader and Normaliser - 12 files, 35+ tests | Done |
+| Day 03 | Schema Validator - 16 DQ Rules | Done |
 | Day 04 | SQLite Database Schema - 12 tables, PK/FK | Done |
 | Day 05 | Full Data Load - 13,871 rows, 0 FK violations | Done |
 | Day 06 | Data Quality Manual Review - 5 companies verified | Done |
@@ -53,12 +53,12 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 | Day | Task | Status |
 |-----|------|--------|
 | Day 08 | Profitability Ratios - NPM, OPM, ROE, ROCE, ROA | Done |
-| Day 09 | Leverage & Efficiency - D/E, ICR, Net Debt, Asset Turnover | Done |
+| Day 09 | Leverage and Efficiency - D/E, ICR, Net Debt, Asset Turnover | Done |
 | Day 10 | CAGR Engine - Revenue/PAT/EPS, 6 edge cases handled | Done |
 | Day 11 | Cash Flow KPIs - FCF, CFO Quality, CapEx, 8-pattern Allocator | Done |
 | Day 12 | Populate financial_ratios Table - 92 companies, 14+ KPIs | Done |
-| Day 13 | Bank ROCE Carve-Out & Edge Case Log | Done |
-| Day 14 | 67 KPI Unit Tests + Manual Spot-Check (0% diff) | Done |
+| Day 13 | Bank ROCE Carve-Out and Edge Case Log | Done |
+| Day 14 | 67 KPI Unit Tests + Manual Spot-Check | Done |
 
 **Exit Criteria:**
 - [x] financial_ratios table - 1,073 rows, 92/92 companies covered
@@ -70,7 +70,7 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 
 ---
 
-## Sprint 3 - Screener & Peer Comparison Engine (Complete)
+## Sprint 3 - Screener and Peer Comparison Engine (Complete)
 
 | Day | Task | Status |
 |-----|------|--------|
@@ -106,38 +106,39 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 | market_cap | 552 | Market cap history |
 | peer_groups | 56 | Peer group mappings |
 | peer_percentiles | 560 | Peer rankings |
-| prosandcons | 16 | Pros & cons |
+| prosandcons | 16 | Pros and cons |
 | sectors | 92 | Sector classifications |
 | stock_prices | 5,520 | Historical stock prices |
 | **Total** | **13,341** | |
 
 ---
 
-## Project Structure 
+## Project Structure
+
 Nifty100_Data_Foundation/
 |
 |-- config/
-|   -- screener_config.yaml       # Analyst-editable threshold definitions | |-- data/ |   |-- raw/                       # 12 source Excel files |   -- processed/                 # Cleaned CSVs
+|   -- screener_config.yaml | |-- data/ |   |-- raw/ |   -- processed/
 |
 |-- db/
-|   |-- schema.sql                 # SQLite schema
-|   -- nifty100.db                # SQLite database | |-- src/ |   |-- etl/ |   |   |-- loader.py              # Excel -> SQLite loader |   |   |-- normaliser.py          # normalise_year() + normalise_ticker() |   |   -- validator.py           # 16 DQ rules
+|   |-- schema.sql
+|   -- nifty100.db | |-- src/ |   |-- etl/ |   |   |-- loader.py |   |   |-- normaliser.py |   |   -- validator.py
 |   |-- analytics/
-|   |   |-- ratios.py              # NPM, OPM, ROE, ROCE, ROA, D/E, ICR
-|   |   |-- cagr.py                # CAGR engine, 6 edge cases
-|   |   |-- cashflow_kpis.py       # FCF, CFO Quality, CapEx, Capital Allocator
-|   |   |-- ratio_engine.py        # Full KPI runner
-|   |   |-- peer.py                # Peer percentile rankings
-|   |   -- radar.py               # Radar chart generator |   |-- screener/ |   |   |-- engine.py              # Filter engine, 6 presets, composite score |   |   |-- exporter.py            # Excel export |   |   -- run_sprint3.py         # Sprint 3 full runner
-|   -- utils/ |       |-- config.py              # Central config |       -- logger.py              # Loguru logging
+|   |   |-- ratios.py
+|   |   |-- cagr.py
+|   |   |-- cashflow_kpis.py
+|   |   |-- ratio_engine.py
+|   |   |-- peer.py
+|   |   -- radar.py |   |-- screener/ |   |   |-- engine.py |   |   |-- exporter.py |   |   -- run_sprint3.py
+|   -- utils/ |       |-- config.py |       -- logger.py
 |
 |-- tests/
-|   |-- etl/                       # ETL unit tests
-|   |-- kpi/                       # 67 KPI formula tests
-|   -- screener/                  # 21 screener + peer tests | |-- output/ |   |-- screener_output.xlsx       # 6 preset sheets, colour-coded |   |-- peer_comparison.xlsx       # 11 peer group sheets |   |-- capital_allocation.csv     # 8-pattern capital allocation |   -- ratio_edge_cases.log       # KPI anomaly log
+|   |-- etl/
+|   |-- kpi/
+|   -- screener/ | |-- output/ |   |-- screener_output.xlsx |   |-- peer_comparison.xlsx |   |-- capital_allocation.csv |   -- ratio_edge_cases.log
 |
 |-- reports/
-|   -- radar_charts/              # 92 PNG radar charts | |-- Makefile |-- requirements.txt -- .env
+|   -- radar_charts/ | |-- Makefile |-- requirements.txt -- .env
 
 ---
 
@@ -146,7 +147,7 @@ Nifty100_Data_Foundation/
 | Tool | Purpose |
 |------|---------|
 | Python 3.12 | Core language |
-| Pandas | Data loading & transformation |
+| Pandas | Data loading and transformation |
 | SQLite | Database |
 | OpenPyXL | Excel export with formatting |
 | Matplotlib | Radar charts |
@@ -159,21 +160,17 @@ Nifty100_Data_Foundation/
 ## Quick Start
 
 ```bash
-# Clone
 git clone https://github.com/sushant0011/Nifty100-Data-Foundation.git
 cd Nifty100-Data-Foundation
 
-# Setup
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-# Run Pipeline
-python src/etl/loader.py                   # Sprint 1: Load data
-python -m src.analytics.ratio_engine       # Sprint 2: Compute KPIs
-python -m src.screener.run_sprint3         # Sprint 3: Screener + Peer engine
+python src/etl/loader.py
+python -m src.analytics.ratio_engine
+python -m src.screener.run_sprint3
 
-# Test
 pytest tests/ -v
 ```
 
@@ -201,9 +198,9 @@ pytest tests/ -v
 | FMCG | 7 |
 | IT Services | 5 |
 | Life Insurance | 4 |
-| Oil & Gas | 5 |
+| Oil and Gas | 5 |
 | Pharmaceuticals | 5 |
-| Power & Utilities | 7 |
+| Power and Utilities | 7 |
 | Private Banks | 5 |
 | Public Sector Banks | 4 |
 | Steel | 4 |
