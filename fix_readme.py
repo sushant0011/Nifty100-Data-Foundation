@@ -167,7 +167,7 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
     git clone https://github.com/sushant0011/Nifty100-Data-Foundation.git
     cd Nifty100-Data-Foundation
     python -m venv venv
-    venv\Scripts\activate
+    venv\\Scripts\\activate
     pip install -r requirements.txt
     python src/etl/loader.py
     python -m src.analytics.ratio_engine
