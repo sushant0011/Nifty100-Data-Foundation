@@ -5,25 +5,25 @@ content = """# Nifty100 Data Foundation
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
 ![Tests](https://img.shields.io/badge/Tests-100%25passed-brightgreen)
-![Sprint](https://img.shields.io/badge/Sprint%203-Complete-success)
+![Sprint](https://img.shields.io/badge/Sprint%204-Complete-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
 ## Overview
 
-Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that extracts financial data from 12 Excel source files, validates it against 16 Data Quality rules, loads it into a structured SQLite database, computes 50+ financial KPIs, and powers a fully functional screener and peer comparison engine for India's top 100 listed companies.
+Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that extracts financial data from 12 Excel source files, validates it against 16 Data Quality rules, loads it into a structured SQLite database, computes 50+ financial KPIs, powers a fully functional screener and peer comparison engine, and serves an 8-screen Streamlit dashboard for India's top 100 listed companies.
 
 ---
 
 ## Sprint Progress
 
-| Sprint | Theme | Days | Tests | Status |
-|--------|-------|------|-------|--------|
-| Sprint 1 | Data Foundation and ETL | Day 01-07 | 12 | Complete |
-| Sprint 2 | Financial Ratio Engine | Day 08-14 | 67 | Complete |
-| Sprint 3 | Screener and Peer Comparison | Day 15-21 | 21 | Complete |
-| **Total** | | | **100** | **3/3 Done** |
+| Sprint | Theme | Days | Status |
+|--------|-------|------|--------|
+| Sprint 1 | Data Foundation and ETL | Day 01-07 | Complete |
+| Sprint 2 | Financial Ratio Engine | Day 08-14 | Complete |
+| Sprint 3 | Screener and Peer Comparison | Day 15-21 | Complete |
+| Sprint 4 | Streamlit Dashboard and Valuation | Day 22-28 | Complete |
 
 ---
 
@@ -66,7 +66,6 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 - [x] 67 KPI formula unit tests pass, 0 failures
 - [x] ratio_edge_cases.log - 47 documented anomalies
 - [x] Manual spot-check: ROE and Revenue 5yr CAGR verified (0.000% diff)
-- [x] Screener preview: ROE>15% and D/E<1 returns 34 companies
 
 ---
 
@@ -89,6 +88,50 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 - [x] 92 radar charts generated in reports/radar_charts/
 - [x] 21 screener unit tests pass, 0 failures
 - [x] Total project tests: 100 passing, 0 failures
+
+---
+
+## Sprint 4 - Streamlit Dashboard and Valuation (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 22 | Streamlit App Scaffold - 8 screens, sidebar navigation, db.py | Done |
+| Day 23 | Home Screen and Company Profile Screen | Done |
+| Day 24 | Screener Screen and Peer Comparison Screen | Done |
+| Day 25 | Trend Analysis, Sector Analysis, Capital Allocation, Annual Reports | Done |
+| Day 26 | Valuation Module - FCF yield, PE flags, overvaluation labels | Done |
+| Day 27 | Integration QA and Bug Fixes | Done |
+| Day 28 | Retro and Documentation | Done |
+
+**Exit Criteria:**
+- [x] All 8 Streamlit screens load without errors for any of the 92 tickers
+- [x] Screener CSV download produces a valid file
+- [x] valuation_summary.xlsx has 92 rows with all required columns
+- [x] valuation_flags.csv - 59 flagged companies (Caution/Discount)
+- [x] Sprint 4 review completed
+
+---
+
+## Dashboard
+
+Run the dashboard locally:
+
+    streamlit run src/dashboard/app.py
+
+Then open http://localhost:8501 in your browser.
+
+### 8 Dashboard Screens
+
+| Screen | Description |
+|--------|-------------|
+| Home | Market overview, KPI tiles, sector donut chart, top 5 companies |
+| Company Profile | Search any ticker, 10-year charts, ROE/ROCE trends, pros and cons |
+| Screener | 15 metric sliders, 6 preset buttons, live results, CSV download |
+| Peer Comparison | Radar chart vs peer group average, KPI comparison table |
+| Trend Analysis | 10-year metric trends with YoY annotations |
+| Sector Analysis | Bubble chart, sector median KPI bar chart |
+| Capital Allocation | Treemap of 92 companies by 8 capital patterns |
+| Annual Reports | BSE/NSE annual report links per company |
 
 ---
 
@@ -119,8 +162,6 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 |------|-------------|
 | `config/screener_config.yaml` | Analyst-editable threshold definitions |
 | `data/raw/` | 12 source Excel files |
-| `data/processed/` | Cleaned CSVs |
-| `db/schema.sql` | SQLite schema |
 | `db/nifty100.db` | SQLite database |
 | `src/etl/loader.py` | Excel to SQLite loader |
 | `src/etl/normaliser.py` | normalise_year() + normalise_ticker() |
@@ -131,18 +172,19 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 | `src/analytics/ratio_engine.py` | Full KPI runner |
 | `src/analytics/peer.py` | Peer percentile rankings |
 | `src/analytics/radar.py` | Radar chart generator |
+| `src/analytics/valuation.py` | FCF yield and PE overvaluation flags |
 | `src/screener/engine.py` | Filter engine, 6 presets, composite score |
 | `src/screener/exporter.py` | Excel export |
-| `src/screener/run_sprint3.py` | Sprint 3 full runner |
-| `src/utils/config.py` | Central config |
-| `src/utils/logger.py` | Loguru logging |
+| `src/dashboard/app.py` | Streamlit main entry point |
+| `src/dashboard/pages/` | 8 screen files |
+| `src/dashboard/utils/db.py` | Cached data loader |
 | `tests/etl/` | ETL unit tests |
 | `tests/kpi/` | 67 KPI formula tests |
 | `tests/screener/` | 21 screener + peer tests |
 | `output/screener_output.xlsx` | 6 preset sheets, colour-coded |
 | `output/peer_comparison.xlsx` | 11 peer group sheets |
-| `output/capital_allocation.csv` | 8-pattern capital allocation |
-| `output/ratio_edge_cases.log` | KPI anomaly log |
+| `output/valuation_summary.xlsx` | 92 companies with valuation flags |
+| `output/valuation_flags.csv` | Caution and Discount companies |
 | `reports/radar_charts/` | 92 PNG radar charts |
 
 ---
@@ -154,6 +196,8 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
 | Python 3.12 | Core language |
 | Pandas | Data loading and transformation |
 | SQLite | Database |
+| Streamlit | Interactive dashboard |
+| Plotly | Charts and visualizations |
 | OpenPyXL | Excel export with formatting |
 | Matplotlib | Radar charts |
 | PyYAML | Screener config |
@@ -172,7 +216,8 @@ Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that e
     python src/etl/loader.py
     python -m src.analytics.ratio_engine
     python -m src.screener.run_sprint3
-    pytest tests/ -v
+    python -m src.analytics.valuation
+    streamlit run src/dashboard/app.py
 
 ---
 
@@ -216,4 +261,4 @@ GitHub: [sushant0011](https://github.com/sushant0011)
 with open('README.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write(content)
 
-print("Done!")
+print("README.md written successfully!")
