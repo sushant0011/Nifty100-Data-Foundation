@@ -1504,3 +1504,153 @@ Fair        33
 Discount    32
 Caution     27
 2026-07-15 09:51:29 | SUCCESS  | Valuation Engine complete!
+2026-07-17 13:54:12 | INFO     | ============================================================
+2026-07-17 13:54:12 | INFO     | Sprint 5 — NLP + Reports + Cash Flow Intelligence
+2026-07-17 13:54:12 | INFO     | ============================================================
+2026-07-17 13:54:12 | INFO     | Step 1: NLP Analysis Parser...
+2026-07-17 13:54:17 | INFO     | ============================================================
+2026-07-17 13:54:17 | INFO     | NLP Parser - Starting Day 29
+2026-07-17 13:54:17 | INFO     | ============================================================
+2026-07-17 13:54:17 | INFO     | Loaded analysis table: 20 rows
+2026-07-17 13:54:17 | INFO     | Available metric columns: ['compounded_sales_growth', 'compounded_profit_growth', 'stock_price_cagr', 'roe']
+2026-07-17 13:54:17 | SUCCESS  | analysis_parsed.csv -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\analysis_parsed.csv (63 rows)
+2026-07-17 13:54:17 | INFO     | parse_failures.csv -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\parse_failures.csv (17 rows)
+2026-07-17 13:54:17 | SUCCESS  | No CAGR divergence > 5% found
+2026-07-17 13:54:17 | SUCCESS  | NLP Parser complete!
+2026-07-17 13:54:17 | INFO     | Step 2: Auto Pros Cons Generator...
+2026-07-17 13:54:17 | INFO     | ============================================================
+2026-07-17 13:54:17 | INFO     | Pros Cons Generator - Starting Day 30
+2026-07-17 13:54:17 | INFO     | ============================================================
+2026-07-17 13:54:17 | INFO     | Loaded 1073 ratio rows, 92 companies
+2026-07-17 13:54:17 | SUCCESS  | pros_cons_generated.csv -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\pros_cons_generated.csv (592 rows)
+2026-07-17 13:54:17 | INFO     | Companies without natural pro: 3 — ['BHEL', 'GODREJCP', 'JINDALSTEL']
+2026-07-17 13:54:17 | INFO     | Companies without natural con: 34 — ['ABB', 'ADANIENT', 'ADANIPOWER', 'ATGL', 'AXISBANK']
+2026-07-17 13:54:18 | INFO     | Companies with pro: 92/92
+2026-07-17 13:54:18 | INFO     | Companies with con: 92/92
+2026-07-17 13:54:18 | SUCCESS  | Exit criteria MET: every company has at least 1 pro and 1 con
+2026-07-17 13:54:18 | SUCCESS  | Pros Cons Generator complete!
+2026-07-17 13:54:18 | INFO     | Step 3: Cash Flow Intelligence...
+2026-07-17 13:54:18 | INFO     | ============================================================
+2026-07-17 13:54:18 | INFO     | Cash Flow Intelligence - Starting Day 31
+2026-07-17 13:54:18 | INFO     | ============================================================
+2026-07-17 13:54:18 | SUCCESS  | cashflow_intelligence.xlsx -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\cashflow_intelligence.xlsx (92 rows)
+2026-07-17 13:54:18 | SUCCESS  | distress_alerts.csv -> C:\Users\susha\OneDrive\Desktop\Nifty100_Data_Foundation\output\distress_alerts.csv (13 companies flagged)
+2026-07-17 13:54:18 | INFO     | Distress signals: 13
+2026-07-17 13:54:18 | INFO     | Deleveraging: 16
+2026-07-17 13:54:18 | SUCCESS  | Cash Flow Intelligence complete!
+2026-07-17 13:54:18 | INFO     | Step 4: Generating Company Tearsheets...
+2026-07-17 13:54:19 | INFO     | ============================================================
+2026-07-17 13:54:19 | INFO     | Tearsheet Batch Runner - Starting Day 34
+2026-07-17 13:54:19 | INFO     | ============================================================
+2026-07-17 13:54:19 | INFO     |   Generated: ABB_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ADANIENSOL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ADANIENT_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ADANIGREEN_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ADANIPORTS_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ADANIPOWER_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: AMBUJACEM_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: APOLLOHOSP_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ASIANPAINT_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: ATGL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: AXISBANK_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BAJAJ-AUTO_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BAJAJFINSV_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BAJAJHLDNG_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BAJFINANCE_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BANKBARODA_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BEL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BHARTIARTL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BHEL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BOSCHLTD_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BPCL_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: BRITANNIA_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: CANBK_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: CHOLAFIN_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: CIPLA_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: COALINDIA_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: DABUR_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: DIVISLAB_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: DLF_tearsheet.pdf
+2026-07-17 13:54:19 | INFO     |   Generated: DMART_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: DRREDDY_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: EICHERMOT_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: GAIL_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: GODREJCP_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: GRASIM_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HAL_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HAVELLS_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HCLTECH_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HDFCBANK_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HDFCLIFE_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HEROMOTOCO_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HINDALCO_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: HINDUNILVR_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: ICICIBANK_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: ICICIGI_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: ICICIPRULI_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: INDIGO_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: INDUSINDBK_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: INFY_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: IOC_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: IRCTC_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: IRFC_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: ITC_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: JINDALSTEL_tearsheet.pdf
+2026-07-17 13:54:20 | WARNING  | Skipping JIOFIN — insufficient data
+2026-07-17 13:54:20 | INFO     |   Generated: JSWENERGY_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: JSWSTEEL_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: KOTAKBANK_tearsheet.pdf
+2026-07-17 13:54:20 | INFO     |   Generated: LICI_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: LODHA_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: LT_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: LTIM_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: M&M_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: MARUTI_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: MOTHERSON_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: NAUKRI_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: NESTLEIND_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: NHPC_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: NTPC_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: ONGC_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: PFC_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: PIDILITIND_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: PNB_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: POWERGRID_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: RECLTD_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: RELIANCE_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SBILIFE_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SBIN_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SHREECEM_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SHRIRAMFIN_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SIEMENS_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: SUNPHARMA_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: TATACONSUM_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: TATAMOTORS_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: TATAPOWER_tearsheet.pdf
+2026-07-17 13:54:21 | INFO     |   Generated: TATASTEEL_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TCS_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TECHM_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TITAN_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TORNTPHARM_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TRENT_tearsheet.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: TVSMOTOR_tearsheet.pdf
+2026-07-17 13:54:22 | WARNING  | Skipped 1 companies -> output/skipped_tearsheets.csv
+2026-07-17 13:54:22 | SUCCESS  | Tearsheets complete: 91 generated, 1 skipped
+2026-07-17 13:54:22 | INFO     | Step 5: Generating Sector Reports...
+2026-07-17 13:54:22 | INFO     | ============================================================
+2026-07-17 13:54:22 | INFO     | Sector Report Batch Runner - Starting
+2026-07-17 13:54:22 | INFO     | ============================================================
+2026-07-17 13:54:22 | INFO     |   Generated: Communication Services_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Consumer Discretionary_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Consumer Staples_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Energy_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Financials_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Healthcare_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Industrials_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Information Technology_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Materials_report.pdf
+2026-07-17 13:54:22 | INFO     |   Generated: Real Estate_report.pdf
+2026-07-17 13:54:22 | SUCCESS  | Sector reports complete: 10/10 generated
+2026-07-17 13:54:22 | INFO     | Step 6: Generating Portfolio Summary...
+2026-07-17 13:54:23 | SUCCESS  | Portfolio summary -> reports\portfolio\portfolio_summary.pdf
+2026-07-17 13:54:23 | SUCCESS  | Sprint 5 complete!

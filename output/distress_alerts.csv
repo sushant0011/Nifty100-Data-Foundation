@@ -1,0 +1,17 @@
+company_id,company_name,sector,cfo_value,cff_value,latest_net_profit_margin
+AXISBANK,Axis Bank Ltd,Financials,-5555.0,22341.0,22.73130411725443
+BAJAJFINSV,Bajaj Finserv Ltd,Financials,-68674.0,82709.0,14.128209309488865
+BAJFINANCE,Bajaj Finance Ltd,Financials,-72760.0,82415.0,26.287928399912687
+BANKBARODA,Bank of Baroda,Financials,-6274.0,5476.0,15.93948250956673
+BHEL,"Bharat Heavy Electricals Limited
+",Industrials,-3713.0,2656.0,1.180262001423011
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,Financials,-35683.0,38471.0,17.846892448990243
+GRASIM,Grasim Industries Ltd,Industrials,-10719.0,33908.0,7.578371940325857
+M&M,"Mahindra & Mahindra Ltd
+",Consumer Discretionary,-5630.0,12281.0,8.82238743726542
+PFC,Power Finance Corporation Ltd,Financials,-97820.0,101261.0,28.916597455960137
+PNB,Punjab National Bank,Financials,-27939.0,3518.0,8.395910695456838
+RECLTD,REC Ltd,Financials,-57723.0,59588.0,29.7682934528695
+SHRIRAMFIN,"Shriram Finance Ltd
+",Financials,-31101.0,27609.0,20.333626470264925
+TVSMOTOR,TVS Motor Company Ltd,Consumer Discretionary,-1253.0,2759.0,4.544641716694342
