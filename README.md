@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
 ![Tests](https://img.shields.io/badge/Tests-100%20passed-brightgreen)
-![Sprints](https://img.shields.io/badge/Sprints-5%20of%206%20Complete-brightgreen)
+![Sprints](https://img.shields.io/badge/Sprints-5/6%20Complete-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
