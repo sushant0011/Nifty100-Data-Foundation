@@ -1,79 +1,290 @@
+content = """# Nifty100 Data Foundation
+
+> Financial Intelligence System for India's Top 100 Listed Companies
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![Tests](https://img.shields.io/badge/Tests-100%25passed-brightgreen)
+![Sprint](https://img.shields.io/badge/Sprint%205-Complete-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## Overview
+
+Nifty100 Data Foundation is a production-grade ETL and analytics pipeline that extracts financial data from 12 Excel source files, validates it against 16 Data Quality rules, loads it into a structured SQLite database, computes 50+ financial KPIs, powers a fully functional screener and peer comparison engine, serves an 8-screen Streamlit dashboard, and generates automated PDF tearsheets and NLP-powered pros/cons for India's top 100 listed companies.
+
+---
+
+## Sprint Progress
+
+| Sprint | Theme | Days | Status |
+|--------|-------|------|--------|
+| Sprint 1 | Data Foundation and ETL | Day 01-07 | Complete |
+| Sprint 2 | Financial Ratio Engine | Day 08-14 | Complete |
+| Sprint 3 | Screener and Peer Comparison | Day 15-21 | Complete |
+| Sprint 4 | Streamlit Dashboard and Valuation | Day 22-28 | Complete |
+| Sprint 5 | NLP, Cash Flow Intelligence and PDF Reports | Day 29-35 | Complete |
+
+---
+
+## Sprint 1 - Data Foundation (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 01 | Environment Setup - venv, libs, Makefile | Done |
+| Day 02 | Excel Loader and Normaliser - 12 files, 35+ tests | Done |
+| Day 03 | Schema Validator - 16 DQ Rules | Done |
+| Day 04 | SQLite Database Schema - 12 tables, PK/FK | Done |
+| Day 05 | Full Data Load - 13,871 rows, 0 FK violations | Done |
+| Day 06 | Data Quality Manual Review - 5 companies verified | Done |
+| Day 07 | Sprint Wrap-up - Reports, Charts, Analytics | Done |
+
+**Exit Criteria:**
+- [x] SELECT COUNT(*) FROM companies = 92
+- [x] PRAGMA foreign_key_check = 0 rows
+- [x] load_audit.csv = zero CRITICAL rejections
+- [x] 12 ETL unit tests pass
+- [x] Manual review: 5 companies verified
+
+---
+
+## Sprint 2 - Financial Ratio Engine (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 08 | Profitability Ratios - NPM, OPM, ROE, ROCE, ROA | Done |
+| Day 09 | Leverage and Efficiency - D/E, ICR, Net Debt, Asset Turnover | Done |
+| Day 10 | CAGR Engine - Revenue/PAT/EPS, 6 edge cases handled | Done |
+| Day 11 | Cash Flow KPIs - FCF, CFO Quality, CapEx, 8-pattern Allocator | Done |
+| Day 12 | Populate financial_ratios Table - 92 companies, 14+ KPIs | Done |
+| Day 13 | Bank ROCE Carve-Out and Edge Case Log | Done |
+| Day 14 | 67 KPI Unit Tests + Manual Spot-Check | Done |
+
+**Exit Criteria:**
+- [x] financial_ratios table - 1,073 rows, 92/92 companies covered
+- [x] 67 KPI formula unit tests pass, 0 failures
+- [x] Manual spot-check: ROE and Revenue 5yr CAGR verified (0.000% diff)
+
+---
+
+## Sprint 3 - Screener and Peer Comparison Engine (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 15 | Filter Engine Core - 15 filterable metrics, YAML config | Done |
+| Day 16 | 6 Preset Screeners - Quality Compounder, Value Pick, Growth etc. | Done |
+| Day 17 | Composite Score + screener_output.xlsx - colour-coded cells | Done |
+| Day 18 | Peer Percentile Rankings - 11 groups, 10 metrics, 560 rows | Done |
+| Day 19 | Radar Charts - 92 PNG charts with peer group overlay | Done |
+| Day 20 | peer_comparison.xlsx - 11 sheets, percentile colour-coded | Done |
+| Day 21 | 21 Screener Tests, 0 failures, Sprint Review | Done |
+
+**Exit Criteria:**
+- [x] 6 preset screeners each return between 5 and 50 companies
+- [x] peer_comparison.xlsx has exactly 11 sheets
+- [x] 92 radar charts generated
+- [x] 100 total tests passing, 0 failures
+
+---
+
+## Sprint 4 - Streamlit Dashboard and Valuation (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 22 | Streamlit App Scaffold - 8 screens, sidebar navigation, db.py | Done |
+| Day 23 | Home Screen and Company Profile Screen | Done |
+| Day 24 | Screener Screen and Peer Comparison Screen | Done |
+| Day 25 | Trend Analysis, Sector Analysis, Capital Allocation, Annual Reports | Done |
+| Day 26 | Valuation Module - FCF yield, PE flags, overvaluation labels | Done |
+| Day 27 | Integration QA and Bug Fixes | Done |
+| Day 28 | Retro and Documentation | Done |
+
+**Exit Criteria:**
+- [x] All 8 Streamlit screens load without errors
+- [x] valuation_summary.xlsx has 92 rows
+- [x] valuation_flags.csv - 59 flagged companies
+
+---
+
+## Sprint 5 - NLP, Cash Flow Intelligence and PDF Reports (Complete)
+
+| Day | Task | Status |
+|-----|------|--------|
+| Day 29 | NLP Analysis Text Parser - regex extraction, cross-validation | Done |
+| Day 30 | Auto Pros/Cons Generator - 12 pro rules, 12 con rules, confidence scores | Done |
+| Day 31 | Cash Flow Intelligence - CFO quality, CapEx intensity, distress flags | Done |
+| Day 32 | Capital Allocation Report - pattern distribution, year-over-year changes | Done |
+| Day 33 | PDF Tearsheet Template - 2-page ReportLab layout, KPI tiles, charts | Done |
+| Day 34 | Batch Report Generation - 91 tearsheets, 10 sector PDFs | Done |
+| Day 35 | Portfolio Summary PDF and Sprint Review | Done |
+
+**Exit Criteria:**
+- [x] pros_cons_generated.csv - 592 rows, every company has at least 1 pro and 1 con
+- [x] cashflow_intelligence.xlsx - 92 rows, all required columns
+- [x] distress_alerts.csv - 13 companies flagged
+- [x] 91 tearsheet PDFs generated in reports/tearsheets/
+- [x] 10 sector PDFs generated in reports/sector/
+- [x] portfolio_summary.pdf generated
+- [x] Sprint 5 review completed
+
+---
+
+## Dashboard
+
+Run the dashboard locally:
+
+    streamlit run src/dashboard/app.py
+
+Then open http://localhost:8501 in your browser.
+
+### 8 Dashboard Screens
+
+| Screen | Description |
+|--------|-------------|
+| Home | Market overview, KPI tiles, sector donut chart, top 5 companies |
+| Company Profile | Search any ticker, 10-year charts, ROE/ROCE trends, pros and cons |
+| Screener | 15 metric sliders, 6 preset buttons, live results, CSV download |
+| Peer Comparison | Radar chart vs peer group average, KPI comparison table |
+| Trend Analysis | 10-year metric trends with YoY annotations |
+| Sector Analysis | Bubble chart, sector median KPI bar chart |
+| Capital Allocation | Treemap of 92 companies by 8 capital patterns |
+| Annual Reports | BSE/NSE annual report links per company |
+
+---
+
+## Database Stats
+
+| Table | Rows | Description |
+|-------|------|-------------|
+| companies | 92 | Master company data |
+| profitandloss | 1,276 | P&L statements |
+| balancesheet | 1,312 | Balance sheets |
+| cashflow | 1,187 | Cash flow statements |
+| analysis | 20 | Growth analysis |
+| documents | 1,585 | Annual reports |
+| financial_ratios | 1,073 | Computed KPIs |
+| market_cap | 552 | Market cap history |
+| peer_groups | 56 | Peer group mappings |
+| peer_percentiles | 560 | Peer rankings |
+| prosandcons | 16 | Pros and cons |
+| sectors | 92 | Sector classifications |
+| stock_prices | 5,520 | Historical stock prices |
+| **Total** | **13,341** | |
+
+---
+
+## Project Structure
+
+| Path | Description |
+|------|-------------|
+| `config/screener_config.yaml` | Analyst-editable threshold definitions |
+| `data/raw/` | 12 source Excel files |
+| `db/nifty100.db` | SQLite database |
+| `src/etl/loader.py` | Excel to SQLite loader |
+| `src/etl/validator.py` | 16 DQ rules |
+| `src/analytics/ratios.py` | NPM, OPM, ROE, ROCE, ROA, D/E, ICR |
+| `src/analytics/cagr.py` | CAGR engine, 6 edge cases |
+| `src/analytics/cashflow_kpis.py` | FCF, CFO Quality, CapEx, Capital Allocator |
+| `src/analytics/ratio_engine.py` | Full KPI runner |
+| `src/analytics/peer.py` | Peer percentile rankings |
+| `src/analytics/radar.py` | Radar chart generator |
+| `src/analytics/valuation.py` | FCF yield and PE overvaluation flags |
+| `src/analytics/cashflow_intelligence.py` | CFO quality, distress flags, deleveraging |
+| `src/nlp/parser.py` | Analysis text parser with regex |
+| `src/nlp/pros_cons_generator.py` | Auto pros/cons with 24 rules |
+| `src/screener/engine.py` | Filter engine, 6 presets, composite score |
+| `src/screener/exporter.py` | Excel export |
+| `src/dashboard/app.py` | Streamlit main entry point |
+| `src/dashboard/pages/` | 8 screen files |
+| `src/dashboard/utils/db.py` | Cached data loader |
+| `src/reports/tearsheet.py` | 2-page company tearsheet PDF |
+| `src/reports/sector_report.py` | Sector PDF reports |
+| `src/reports/portfolio_summary.py` | Portfolio summary PDF |
+| `output/screener_output.xlsx` | 6 preset sheets, colour-coded |
+| `output/peer_comparison.xlsx` | 11 peer group sheets |
+| `output/valuation_summary.xlsx` | 92 companies with valuation flags |
+| `output/cashflow_intelligence.xlsx` | CFO quality, distress flags |
+| `output/pros_cons_generated.csv` | 592 rows, auto-generated pros and cons |
+| `reports/tearsheets/` | 91 company tearsheet PDFs |
+| `reports/sector/` | 10 sector PDFs |
+| `reports/portfolio/` | Portfolio summary PDF |
+| `reports/radar_charts/` | 92 PNG radar charts |
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python 3.12 | Core language |
+| Pandas | Data loading and transformation |
+| SQLite | Database |
+| Streamlit | Interactive dashboard |
+| Plotly | Charts and visualizations |
+| ReportLab | PDF generation |
+| OpenPyXL | Excel export with formatting |
+| Matplotlib | Radar charts |
+| PyYAML | Screener config |
+| Pytest | Unit testing (100 tests) |
+| Loguru | Structured logging |
+
+---
+
+## Quick Start
+
+    git clone https://github.com/sushant0011/Nifty100-Data-Foundation.git
+    cd Nifty100-Data-Foundation
+    python -m venv venv
+    venv\\Scripts\\activate
+    pip install -r requirements.txt
+    python src/etl/loader.py
+    python -m src.analytics.ratio_engine
+    python -m src.screener.run_sprint3
+    python -m src.analytics.valuation
+    python -m src.reports.run_sprint5
+    streamlit run src/dashboard/app.py
+
+---
+
+## Screener Presets
+
+| Preset | Key Filters | Companies |
+|--------|-------------|-----------|
+| Quality Compounder | ROE>15%, D/E<1, FCF>0, Revenue CAGR>10% | 22 |
+| Value Pick | P/E<20, P/B<3, D/E<2, Dividend Yield>1% | 88 |
+| Growth Accelerator | PAT CAGR>20%, Revenue CAGR>15%, D/E<2 | 19 |
+| Dividend Champion | Dividend Yield>2%, FCF>0 | 65 |
+| Debt Free Blue Chip | D/E<0.1, ROE>12%, Sales>5000 Cr | 40 |
+| Turnaround Watch | Revenue CAGR>10%, FCF>0 | 39 |
+
+---
+
+## Peer Groups (11 Total)
+
+| Group | Companies |
+|-------|-----------|
+| Automobiles | 7 |
+| Consumer Finance | 3 |
+| FMCG | 7 |
+| IT Services | 5 |
+| Life Insurance | 4 |
+| Oil and Gas | 5 |
+| Pharmaceuticals | 5 |
+| Power and Utilities | 7 |
+| Private Banks | 5 |
+| Public Sector Banks | 4 |
+| Steel | 4 |
+
+---
+
+## Author
+
+**Sushant Kumar**
+GitHub: [sushant0011](https://github.com/sushant0011)
 """
-run_sprint5.py — Sprint 5 Full Runner.
 
-Runs all Sprint 5 components in order:
-  1. NLP Parser         — parse analysis text
-  2. Pros Cons Generator — auto generate pros and cons
-  3. Cash Flow Intelligence — CFO quality, CapEx, distress flags
-  4. Tearsheet PDFs     — 92 company tearsheets
-  5. Sector PDFs        — 11 sector reports
-  6. Portfolio PDF      — portfolio summary
+with open('README.md', 'w', encoding='utf-8', newline='\n') as f:
+    f.write(content)
 
-Run: python -m src.reports.run_sprint5
-"""
-
-import sqlite3
-from src.utils.logger import logger
-from src.utils.config import cfg
-
-
-def main():
-    logger.info("=" * 60)
-    logger.info("Sprint 5 — NLP + Reports + Cash Flow Intelligence")
-    logger.info("=" * 60)
-
-    # Step 1: NLP Parser
-    logger.info("Step 1: NLP Analysis Parser...")
-    try:
-        from src.nlp.parser import run_parser
-        run_parser()
-    except Exception as e:
-        logger.error(f"NLP Parser failed: {e}")
-
-    # Step 2: Pros Cons Generator
-    logger.info("Step 2: Auto Pros Cons Generator...")
-    try:
-        from src.nlp.pros_cons_generator import ProsConsGenerator
-        ProsConsGenerator().run()
-    except Exception as e:
-        logger.error(f"Pros Cons Generator failed: {e}")
-
-    # Step 3: Cash Flow Intelligence
-    logger.info("Step 3: Cash Flow Intelligence...")
-    try:
-        from src.analytics.cashflow_intelligence import CashFlowIntelligence
-        CashFlowIntelligence().run()
-    except Exception as e:
-        logger.error(f"Cash Flow Intelligence failed: {e}")
-
-    # Step 4: Tearsheet PDFs
-    logger.info("Step 4: Generating Company Tearsheets...")
-    try:
-        from src.reports.tearsheet import TearsheetBatchRunner
-        TearsheetBatchRunner().run()
-    except Exception as e:
-        logger.error(f"Tearsheet generation failed: {e}")
-
-    # Step 5: Sector PDFs
-    logger.info("Step 5: Generating Sector Reports...")
-    try:
-        from src.reports.sector_report import SectorReportBatchRunner
-        SectorReportBatchRunner().run()
-    except Exception as e:
-        logger.error(f"Sector report generation failed: {e}")
-
-    # Step 6: Portfolio Summary PDF
-    logger.info("Step 6: Generating Portfolio Summary...")
-    try:
-        from src.reports.portfolio_summary import generate_portfolio_summary
-        conn = sqlite3.connect(cfg.DB_PATH)
-        generate_portfolio_summary(conn)
-        conn.close()
-    except Exception as e:
-        logger.error(f"Portfolio summary failed: {e}")
-
-    logger.success("Sprint 5 complete!")
-
-
-if __name__ == "__main__":
-    main()
+print("README.md written successfully!")
