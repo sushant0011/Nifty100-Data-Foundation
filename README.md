@@ -4,8 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
-![Tests](https://img.shields.io/badge/Tests-100_passed-brightgreen)
-![Sprints](https://img.shields.io/badge/Sprints-5_of_6_Complete-success)
+![Tests](https://img.shields.io/badge/Tests-100%20passed-brightgreen)
+![Sprints](https://img.shields.io/badge/Sprints-5%20of%206%20Complete-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -211,7 +211,7 @@ Then open http://localhost:8501 in your browser.
     git clone https://github.com/sushant0011/Nifty100-Data-Foundation.git
     cd Nifty100-Data-Foundation
     python -m venv venv
-    venv\Scripts\activate
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
     python src/etl/loader.py
     python -m src.analytics.ratio_engine
