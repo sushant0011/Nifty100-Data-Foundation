@@ -5,7 +5,7 @@ content = """# Nifty100 Data Foundation
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
 ![Tests](https://img.shields.io/badge/Tests-100%25passed-brightgreen)
-![Sprint](https://img.shields.io/badge/Sprint%204-Complete-success)
+![Sprint](https://img.shields.io/badge/Sprint%205-Complete-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
